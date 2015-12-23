@@ -30,13 +30,13 @@ A cross-platform application for aggregating and visualising Aurora Australis fo
 </ul>
 
 
-## Interested and want to help?
-We'd love to hear from you! Really, we're new to whole aurora scene and are simply building this as a way to learn more. 
-So we would greatly appreciate: 
+## Interested/want to help?
+I'd love to hear from you! Really, I'm new to whole aurora scene and am simply building this as a way to learn more. 
+So I'd greatly appreciate: 
 <ul>
 	<li><strong>Feature requests</strong> - or suggestions of things you think would be useful</li>
 	<li><strong>Data</strong> - specifically any live or regularly updated data feeds that would be relevant (we love data)</li>
-	<li><strong>Help</strong> - if you're a developer and are keen to get involved drop us a line or shoot us a pull request. 
+	<li><strong>Help</strong> - if you're a developer and are keen to get involved drop me a line or shoot me a pull request. 
 	The best bit of code is the bit you don't have to write yourself ;)</li>
 	<li>...</li>
 </ul>	
