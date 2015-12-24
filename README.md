@@ -1,7 +1,7 @@
 # aurora-australis-forecaster
 
 <strong>Note:</strong> this project is a work in progress.<br/>
-A cross-platform application for aggregating and visualising real-time Aurora Australis forecast data: <a href="http://aurora.nawth.io/">http://aurora.nawth.io/</a>
+A cross-platform application for aggregating and visualising real-time Aurora Australis forecast data.
 
 
 ## Core features/requirements
