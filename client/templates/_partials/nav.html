@@ -1,0 +1,30 @@
+<template name="nav">
+
+	<!-- Fixed navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="{{pathFor 'homeTemplate'}}">
+					<img src="/images/icons/favicon-32x32.png" />
+					Aurora Australis Forecaster
+				</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="{{#if isActivePage 'home' activeTemplate }}active{{/if}}"><a href="{{pathFor 'homeTemplate'}}">Map</a></li>
+					<li class="{{#if isActivePage 'charts' activeTemplate }}active{{/if}}"><a href="{{pathFor 'chartsTemplate'}}">Charts</a></li>
+					<li class="{{#if isActivePage 'raw' activeTemplate }}active{{/if}}"><a href="{{pathFor 'rawTemplate'}}">Raw Data</a></li>
+					<li class="{{#if isActivePage 'tips' activeTemplate }}active{{/if}}"><a href="{{pathFor 'tipsTemplate'}}">Tips</a></li>
+					<li class="{{#if isActivePage 'faq' activeTemplate }}active{{/if}}"><a href="{{pathFor 'faqTemplate'}}">FAQ</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</nav>
+
+</template>

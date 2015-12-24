@@ -1,7 +1,7 @@
 # aurora-australis-forecaster
 
-<strong>Note:</strong> this project is a work in progress.
-A cross-platform application for aggregating and visualising Aurora Australis forecast data: <a href="http://aurora.nawth.io/">http://aurora.nawth.io/</a>
+<strong>Note:</strong> this project is a work in progress.<br/>
+A cross-platform application for aggregating and visualising real-time Aurora Australis forecast data: <a href="http://aurora.nawth.io/">http://aurora.nawth.io/</a>
 
 
 ## Core features/requirements
@@ -34,8 +34,8 @@ A cross-platform application for aggregating and visualising Aurora Australis fo
 
 
 ## Deployment notes
-Currently deployed to AWS EC2 instance using <a href="https://github.com/arunoda/meteor-up">Meteor Up</a>.
-Simple setup notes here: <a href="http://sergelobatch.com/slog/2015/4/10/using-mup/">http://sergelobatch.com/slog/2015/4/10/using-mup/</a>
+Currently deployed to AWS EC2 instance using <a href="https://github.com/arunoda/meteor-up">Meteor Up</a>.<br/>
+Some basic starter notes here: <a href="http://sergelobatch.com/slog/2015/4/10/using-mup/">http://sergelobatch.com/slog/2015/4/10/using-mup/</a>
 
 With AWS and `mup.json` configured:
 
@@ -47,15 +47,38 @@ $ mup deploy
 If you get deployment errors, check the logs `$ mup logs -f`
 
 
-## Interested/want to help?
-I'm new to whole aurora scene and am simply building this as a way to learn more. 
-So I'd greatly appreciate: 
+## Dependencies
+Meteor Packages:
 <ul>
-	<li><strong>Feature requests</strong> - or suggestions of things you think would be useful</li>
-	<li><strong>Data</strong> - specifically any live or regularly updated data feeds that would be relevant (we love data)</li>
+	<li>twbs:bootstrap</li>
+	<li>iron:router</li>
+	<li>alon:ol3</li>
+	<li>...</li>
+</ul>	
+Other goodies:
+<ul>
+	<li>Google Fonts</li>
+	<li>FontAwesome Icons</li>
+	<li>D3JS</li>
+	<li>...</li>
+</ul>
+
+
+## Interested/want to help?
+I'm new to whole aurora scene and am simply building this as a way to learn more; I'd greatly appreciate: 
+<ul>
+	<li><strong>Feature requests</strong> - or suggestions of things you think would be useful.</li>
+	<li><strong>Data</strong> - specifically any live or regularly updated data feeds that would be relevant.</li>
 	<li><strong>Help</strong> - if you're a developer and are keen to get involved drop me a line or shoot me a pull request. 
 	The best bit of code is the bit you don't have to write yourself ;)</li>
 	<li>...</li>
 </ul>	
+
+
+## Notes/useful stuff for Meteor development
+
+https://atmospherejs.com/ meteor pkgs
+http://bootsnipp.com/ UI snippets for bootstrap
+http://www.favicon-generator.org/ app icon generator for web, ios and android
  
  

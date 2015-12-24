@@ -1,0 +1,74 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+.github-buttons {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-brand img {
+    display: inline-block;
+    max-height: 25px;
+    margin-right: 10px;
+}
+
+/*small*/
+@media only screen and (max-width:768px) {
+
+    .navbar-nav {
+        width: 100%;
+        float: left;
+    }
+
+    .nav > li {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    #map {
+        height: 250px;
+    }
+}
