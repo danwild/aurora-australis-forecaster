@@ -1,13 +1,16 @@
 # aurora-australis-forecaster
 
-A cross-platform application for aggregating and visualising Aurora Australis forecast data.
+<strong>Note:</strong> this project is a work in progress.
+A cross-platform application for aggregating and visualising Aurora Australis forecast data: <a href="http://aurora.nawth.io/">http://aurora.nawth.io/</a>
+
 
 ## Core features/requirements
 <ul>
 	<li>Provide simple forecast/status updates for geophysically-illiterate users; while also enabling advanced users to 'drill-down' to perform more detailed analysis.</li>
-	<li>Define the major impacting factors, and develop an aggregated metric scale to roughly quantify potential aurora quality <strong>in a given location</strong>.</li>
+	<li>Define the major impacting factors, and develop an aggregated metric scale to roughly quantify potential aurora quality at a given time and location.</li>
 	<li>Leverage best available data.</li>
-	<li>Application to be delivered via the web, iOS and Android. For free.</li>
+	<li>App to be delivered via the web, iOS and Android.</li>
+	<li>App free for anybody to use, and code is open source.</li>
 	<li>...</li>
 </ul>
 
@@ -30,8 +33,22 @@ A cross-platform application for aggregating and visualising Aurora Australis fo
 </ul>
 
 
+## Deployment notes
+Currently deployed to AWS EC2 instance using <a href="https://github.com/arunoda/meteor-up">Meteor Up</a>.
+Simple setup notes here: <a href="http://sergelobatch.com/slog/2015/4/10/using-mup/">http://sergelobatch.com/slog/2015/4/10/using-mup/</a>
+
+With AWS and `mup.json` configured:
+
+```bash
+$ mup setup 
+$ mup deploy
+```
+
+If you get deployment errors, check the logs `$ mup logs -f`
+
+
 ## Interested/want to help?
-I'd love to hear from you! Really, I'm new to whole aurora scene and am simply building this as a way to learn more. 
+I'm new to whole aurora scene and am simply building this as a way to learn more. 
 So I'd greatly appreciate: 
 <ul>
 	<li><strong>Feature requests</strong> - or suggestions of things you think would be useful</li>
