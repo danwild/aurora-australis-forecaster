@@ -1,5 +1,21 @@
 
+.container {
+    height: 100%;
+}
+
 #map {
     width: 100%;
-    height: 500px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+}
+
+.page-header {
+     margin: 0px;
+     border-bottom: none;
+}
+
+.page-header-toggle {
+    text-align: center;
+    cursor: pointer;
 }

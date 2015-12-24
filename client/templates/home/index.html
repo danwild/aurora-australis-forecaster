@@ -2,7 +2,22 @@
 
 	<div class="container">
 		<div class="page-header">
-			<h1>Welcome, good luck out there!</h1>
+
+			<div class="content">
+				<h3>Aurora Australis: next 24 hours look good: <code>7.2/10</code>
+					<i class="fa fa-question-circle" data-toggle="tooltip" title="See the FAQ for more details on how we calculate this rating"></i> </h3>
+				<p>
+					Use the map below for an overview of potential aurora visibility, or see the
+					<a href="{{pathFor 'chartsTemplate'}}">charts</a> page for a more detailed break down.
+				</p>
+			</div>
+
+			<div class="page-header-toggle">
+				<h4>
+					<i class="fa fa-chevron-{{toggleDirection}}"></i>
+				</h4>
+			</div>
+
 		</div>
 
 		<div id="map" class="map"></div>

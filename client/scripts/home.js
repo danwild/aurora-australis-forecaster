@@ -1,5 +1,36 @@
 
+// ol extent [minX, minY, maxX, maxY]
+var targetExtent = [110, -46, 159, -26.3];
+
+var headVisible = true;
+
+Template.homeTemplate.helpers({
+
+	toggleDirection: function(){
+		return (this.headVisible) ? "up" : "down";
+	}
+
+});
+
+Template.homeTemplate.events({
+
+	"click .page-header-toggle": function(){
+
+		headVisible = !headVisible;
+
+		if(headVisible){
+			$(".page-header .content").show();
+		}
+		else {
+			$(".page-header .content").hide();
+		}
+	}
+
+});
+
 Template.homeTemplate.onRendered(function() {
+
+	var targetExtent = [110, -46, 159, -26.3];
 
 	$(document).ready(function() {
 
@@ -17,7 +48,7 @@ Template.homeTemplate.onRendered(function() {
 		var map = new ol.Map({
 			controls: ol.control.defaults({
 				attributionOptions: ({
-					collapsible: false
+					collapsible: true
 				})
 			}).extend([mousePositionControl]),
 			layers: [
@@ -27,11 +58,15 @@ Template.homeTemplate.onRendered(function() {
 			],
 			target: 'map',
 			view: new ol.View({
-				center: ol.proj.fromLonLat([135, -37]),
+				center: ol.proj.fromLonLat([146.47, -40]),
 				zoom: 5
 			})
 		});
 
+		$('[data-toggle="tooltip"]').tooltip();
+
 	});
 
 });
+
+

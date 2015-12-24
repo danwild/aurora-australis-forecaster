@@ -77,8 +77,8 @@ I'm new to whole aurora scene and am simply building this as a way to learn more
 
 ## Notes/useful stuff for Meteor development
 
-https://atmospherejs.com/ meteor pkgs
-http://bootsnipp.com/ UI snippets for bootstrap
-http://www.favicon-generator.org/ app icon generator for web, ios and android
+https://atmospherejs.com/ meteor pkgs<br/>
+http://bootsnipp.com/ UI snippets for bootstrap<br/>
+http://www.favicon-generator.org/ app icon generator for web, ios and android<br/>
  
  
