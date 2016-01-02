@@ -3,33 +3,31 @@
 <strong>Note:</strong> this project is a work in progress.<br/>
 A cross-platform application for aggregating and visualising real-time Aurora Australis forecast data.
 
+Predicting the weather on Earth is still not an exact science, and this becomes more evident when we try to 
+go beyond our own atmosphere. A limitation "Aurora Chasers" must begrudgingly accept. 
+
+With this in mind; this project sets out with the intent to provide tools to identify when 
+there is a substantially elevated probability of seeing an Aurora.
+
+As any predictive model is _only as good as the underlying data_, we will focus on 
+identifying and communicating the things we know with a reasonable degree of confidence.
 
 ## Core features/requirements
 <ul>
-	<li>Provide simple forecast/status updates for geophysically-illiterate users; while also enabling advanced users to 'drill-down' to perform more detailed analysis.</li>
-	<li>Define the major impacting factors, and develop an aggregated metric scale to roughly quantify potential aurora quality at a given time and location.</li>
+	<li>Focus on things we know with (some) confidence and provide simple reference information for geophysically-illiterate users, for example: 
+		<ul>
+	        <li>"there was substantial earth-directed CME flare today that may arrive approx 1-3 days"; or</li>
+	        <li>"Solar wind activity recorded 1 min ago indicates that an Aurora may be imminent" </li>
+	    </ul>	
+	</li>    
+	<li>Also enable advanced users to 'drill-down' to perform more detailed analysis.</li>
+	<li>Some kind of user configurable solar wind alert feature for ACE feeds, so we don't need to keep setting alarms through the night. (e.g. only wake me up if Bz is x, Bx is y and Proton Density is z)</li>
+	<li>Define the major impacting factors, and develop an <a href="https://github.com/danwild/aurora-australis-forecaster/wiki/Forecast-Calculation-Methodology">aggregated metric scale</a> to roughly quantify potential aurora quality</li>
+	<li>Provide other useful spatial tools - light pollution, cloud cover maps?</li>
 	<li>Leverage best available data.</li>
 	<li>App to be delivered via the web, iOS and Android.</li>
-	<li>App free for anybody to use, and code is open source.</li>
+	<li>App free for anybody to use, and code is open source for the Aurora Chaser community.</li>
 	<li>...</li>
-</ul>
-
-## Wishlist features
-<ul>
-	<li>Allow power users to adjust metric weightings</li>
-	<li>Alert system, e.g. let me know if there's a forecast <code> >= x </code> score for location <code>y</code></li>
-	<li>FAQ</li>
-	<li>Gallery</li>
-	<li>...</li>
-</ul>
-
-
-## Potential metrics (roughly high to low weighting)
-<ul>
-	<li>Kp Index (probably http://www.swpc.noaa.gov/)</li>
-	<li>Solar Winds (Bz, Speed, Density: http://www.swpc.noaa.gov/)</li>
-	<li>Localised cloud cover (?)</li>
-	<li>Moonlight, or light pollution (?)</li>
 </ul>
 
 
