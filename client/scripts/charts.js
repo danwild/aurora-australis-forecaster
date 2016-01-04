@@ -57,7 +57,7 @@ Template.chartsTemplate.onRendered(function() {
 			function updateGauges(init){
 
 				// BZ (MAG)
-				HTTP.call( 'GET', 'http://localhost:7000/mag', {}, function( error, magResponse ) {
+				HTTP.call( 'GET', 'http://aurora.nawth.io:7000/mag', {}, function( error, magResponse ) {
 
 
 					if (error) {
@@ -79,7 +79,7 @@ Template.chartsTemplate.onRendered(function() {
 				});
 
 				// Speed, Density (PLASMA)
-				HTTP.call( 'GET', 'http://localhost:7000/plasma', {}, function( error, plasmaResponse ) {
+				HTTP.call( 'GET', 'http://aurora.nawth.io:7000/plasma', {}, function( error, plasmaResponse ) {
 					if (error) {
 						console.log(error);
 					} else {
@@ -104,7 +104,7 @@ Template.chartsTemplate.onRendered(function() {
 				});
 
 				// KP
-				HTTP.call( 'GET', 'http://localhost:7000/wing-kp', {}, function( error, wingKpResponse ) {
+				HTTP.call( 'GET', 'http://aurora.nawth.io:7000/wing-kp', {}, function( error, wingKpResponse ) {
 					if (error) {
 						console.log(error);
 					} else {
