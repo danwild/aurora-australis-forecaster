@@ -60,6 +60,9 @@ code {
     position: relative;
 }
 
+.well {
+    margin-top: 10px;
+}
 
 /*small*/
 @media only screen and (max-width:768px) {

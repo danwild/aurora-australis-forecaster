@@ -2,9 +2,9 @@
 // ol extent [minX, minY, maxX, maxY]
 var targetExtent = [110, -46, 159, -26.3];
 
-var headVisible = true;
+var headVisible = false;
 
-Template.homeTemplate.helpers({
+Template.mapTemplate.helpers({
 
 	toggleDirection: function(){
 		return (this.headVisible) ? "up" : "down";
@@ -12,7 +12,7 @@ Template.homeTemplate.helpers({
 
 });
 
-Template.homeTemplate.events({
+Template.mapTemplate.events({
 
 	"click .page-header-toggle": function(){
 
@@ -28,7 +28,7 @@ Template.homeTemplate.events({
 
 });
 
-Template.homeTemplate.onRendered(function() {
+Template.mapTemplate.onRendered(function() {
 
 	var targetExtent = [110, -46, 159, -26.3];
 

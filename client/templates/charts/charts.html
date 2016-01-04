@@ -2,7 +2,167 @@
 
 	<div class="container">
 		<div class="page-header">
-			<h1>Charts</h1>
+			<h1>ACE/DSCOVR Realtime Data</h1>
+
+			Below charts show data collected at the L1 libration point (auto updated every minute) between the Earth and the Sun
+			(compliments of <a href="http://www.swpc.noaa.gov/" target="_blank">NOAA SWPC's</a>
+			<a href="http://www.swpc.noaa.gov/ace" target="_blank">ACE</a> &amp;
+			<a href="http://www.nesdis.noaa.gov/DSCOVR/" target="_blank">DSCOVR</a> satellites),
+			about 1,500,000km from Earth - which gives us approx. <strong>1 hour advance warning</strong> to get to a good spot once a storm hits!
+
+			<a class="btn btn-primary btn-sm" role="button" data-toggle="collapse" href="#collapseInfo" aria-expanded="false" aria-controls="collapseExample">
+				more info <i class="fa fa-info-circle"></i>
+			</a>
+
+			<div class="collapse" id="collapseInfo">
+				<div class="well">
+					<h3>Earth, L1 and the Sun</h3>
+					<p>
+						The DSCOVR is America’s first operational deep space satellite orbits one million miles from Earth.
+						Positioned between the sun and Earth at Lagrange point 1, it is able to maintain a constant view of the sun and sun-lit side
+						of Earth - which helps to increase the accuracy of predicting the likelihood of an Aurora.
+					</p>
+					<p>
+						This is improved accuracy is very important - because predicting an Aurora on Earth with <em>any</em>
+						confidence is extremely difficult, due the high number of impacting variables - most of which
+						are hard to quantify, or predict with accuracy (many experienced 'Aurora Chasers' might call it an art).
+					</p>
+					<p>
+						That is why this tool is geared towards making conservative forecasts with higher confidence,
+						instead of longer range predictions based on historically unreliable data.
+					</p>
+
+					<div title="NOAA DSCOVR Satellite Credit: NOAA" data-toggle="tooltip">
+						<img src="/images/point_of_lagrange1_big.jpg"
+							 class="img-responsive img-rounded center-block"
+							 alt="NOAA DSCOVR Satellite Credit: NOAA"
+							 title="NOAA DSCOVR Satellite Credit: NOAA"
+						/>
+					</div>
+
+					<h3>1 Hour isn't very long, what if I'm interstate <i class="fa fa-frown-o"></i> </h3>
+					<p>
+						Yep. Life is hard as an Aurora Chaser, and so are long-range weather forecasts. <br/>
+						This tool was mostly just built so we wouldn't have to get up at intervals through
+						the night to check the data - we can just set an alarm and have the system send us an alert
+						when the storm hits L1.
+					</p>
+					<p>
+						For long-range predictions, the Aurora Australis Forecaster is can be used
+						in a two-step approach:
+						<ol>
+							<li>Watch the CME monitor for advanced warnings of potential storms heading our way
+								(typically 1-5 days warning when a CME occurs, but we get a rough idea of what
+								<em>day</em> it <em>might hit.</em>
+							</li>
+							<li>
+								Watch the data coming from L1, to get approx. 1Hr notice to get your skates on.
+							</li>
+						</ol>
+						* alert system will be made available so you don't get square eyes checking the data all day/night.
+					</p>
+
+					For more info about this system check the <a class="btn btn-primary btn-sm" href="{{pathFor 'faqTemplate'}}" role="button">FAQ</a>
+					or see the <a class="btn btn-primary btn-sm" href="{{pathFor 'tipsTemplate'}}" role="button">Tips</a>
+					section for help on how to spot an Aurora.
+				</div>
+
+				<p>
+					<a class="btn btn-primary btn-sm" role="button" data-toggle="collapse" href="#collapseInfo" aria-expanded="false" aria-controls="collapseExample">
+						less info <i class="fa fa-close"></i>
+					</a>
+				</p>
+
+			</div>
+
+			<h3>Solar Wind</h3>
+
+			<div class="row" id="solar-wind-chart-panel">
+
+				<div class="col-md-3 text-center">
+					<span id="kpGaugeContainer"></span>
+					<div id="kpGaugeOffline" class="gauge-offline alert-danger" data-toggle="tooltip"
+						 title="This usually happens when we get an empty value come through in the data, it should be up again soon..">
+						Gauge offline <i class="fa fa-frown-o"></i>
+					</div>
+					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseKpMeta" aria-expanded="false" aria-controls="collapseExample">
+						What is this thing? <i class="fa fa-info-circle"></i>
+					</button>
+					<div class="collapse gauge-meta" id="collapseKpMeta">
+						<div class="well">
+							<p>
+								The Kp index is a somewhat simplified (some might argue too much so) scale which represents
+								the latest predicted planetary geomagnetic activity on a range from 0 to 9.
+							</p>
+							<p>
+								Generally speaking; we want this to be 7 and greater.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 text-center">
+					<span id="bzGaugeContainer"></span>
+					<div id="bzGaugeOffline" class="gauge-offline alert-danger" data-toggle="tooltip"
+					 title="This usually happens when we get an empty value come through in the data, it should be up again soon..">
+						Gauge offline <i class="fa fa-frown-o"></i>
+					</div>
+					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseBzMeta" aria-expanded="false" aria-controls="collapseExample">
+						What is this thing? <i class="fa fa-info-circle"></i>
+					</button>
+					<div class="collapse gauge-meta" id="collapseBzMeta">
+						<div class="well">
+							<p>
+								A component of Interplanetary Magnetic Field (IMF) generated by the sun. For auroras to occur,
+								the IMF must link up to the Earth’s magnetic field so that the ionised particles can channel
+								down the magnetic field lines into our atmosphere.
+							</p>
+							<p>
+								So in short, we want this to be negative.
+								Say, -8 and below is good, but this means nothing unless we have the particles..
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 text-center">
+					<span id="speedGaugeContainer"></span>
+					<div id="speedGaugeOffline" class="gauge-offline alert-danger" data-toggle="tooltip"
+					 title="This usually happens when we get an empty value come through in the data, it should be up again soon..">
+						Gauge offline <i class="fa fa-frown-o"></i>
+					</div>
+					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSpeedMeta" aria-expanded="false" aria-controls="collapseExample">
+						What is this thing? <i class="fa fa-info-circle"></i>
+					</button>
+					<div class="collapse gauge-meta" id="collapseSpeedMeta">
+						<div class="well">
+							<p>
+								This is <em>fairly</em> straight forward; auroras are caused by ionised particles colliding with the
+								Earth’s atmosphere - with higher speeds comes the potential for more spectacular collisions.
+							</p>
+							<p>
+								This is linked closely to the density of particles in the storm, but generally we
+								want speeds over 600-700km/s and above.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 text-center">
+					<span id="densityGaugeContainer"></span>
+					<div id="densityGaugeOffline" class="gauge-offline alert-danger" data-toggle="tooltip"
+					 title="This usually happens when we get an empty value come through in the data, it should be up again soon..">
+						Gauge offline <i class="fa fa-frown-o"></i>
+					</div>
+					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDensityMeta" aria-expanded="false" aria-controls="collapseExample">
+						What is this thing? <i class="fa fa-info-circle"></i>
+					</button>
+					<div class="collapse gauge-meta" id="collapseDensityMeta">
+						<div class="well">
+							Not typically a pivotal factor for prediction, as higher speeds result in lower density.
+							However if they are both high, you can probably get excited.
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</div>
 

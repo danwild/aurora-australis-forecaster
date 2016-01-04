@@ -1,0 +1,13 @@
+#solar-wind-chart-panel {
+    padding: 20px 0px;
+}
+
+.gauge-offline {
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+    display: none;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}

@@ -1,6 +1,6 @@
 var pageLabels = {
-	"home": "Aurora Forecast Map",
 	"charts": "Forecast Charts",
+	"map": "Aurora Forecast Map",
 	"raw": "Raw Data Feeds",
 	"tips": "Aurora Tips",
 	"faq": "Aurora FAQ"

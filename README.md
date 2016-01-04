@@ -1,10 +1,10 @@
 # aurora-australis-forecaster
 
-<strong>Note:</strong> this project is a work in progress.<br/>
+<p><strong>Note:</strong> this project is a work in progress.</p>
 A cross-platform application for aggregating and visualising real-time Aurora Australis forecast data.
 
 Predicting the weather on Earth is still not an exact science, and this becomes more evident when we try to 
-go beyond our own atmosphere. A limitation "Aurora Chasers" must begrudgingly accept. 
+go beyond our own atmosphere - a limitation all "Aurora Chasers" must begrudgingly accept. 
 
 With this in mind; this project sets out with the intent to provide tools to identify when 
 there is a substantially elevated probability of seeing an Aurora.
@@ -51,6 +51,7 @@ Meteor Packages:
 	<li>twbs:bootstrap</li>
 	<li>iron:router</li>
 	<li>alon:ol3</li>
+	<li>http</li>
 	<li>...</li>
 </ul>	
 Other goodies:
