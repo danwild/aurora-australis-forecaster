@@ -26,46 +26,42 @@ Template.chartsTemplate.onRendered(function() {
 
 			var gauges = [];
 
-			function createGauge(name, label, min, max) {
-				var config =
-				{
-					size: 250,
-					label: label,
-					min: undefined != min ? min : 0,
-					max: undefined != max ? max : 100,
-					minorTicks: 5
-				};
-
-				var range = config.max - config.min;
-				config.yellowZones = [{from: config.min + range * 0.75, to: config.min + range * 0.9}];
-				config.redZones = [{from: config.min + range * 0.9, to: config.max}];
-
-				gauges[name] = new Gauge(name + "GaugeContainer", config);
-				gauges[name].render();
+			function createGauge(config) {
+				gauges[config.name] = new Gauge(config.name + "GaugeContainer", config);
+				gauges[config.name].render();
 			}
 
 			function updateGauge(key, value) {
 				gauges[key].redraw(value);
 			}
 
-			function getRandomValue(gauge) {
-				var overflow = 0; //10;
-				return gauge.config.min - overflow + (gauge.config.max - gauge.config.min + overflow * 2) * Math.random();
-			}
-
-
 			function updateGauges(init){
 
 				// BZ (MAG)
 				HTTP.call( 'GET', 'http://aurora.nawth.io:7000/mag', {}, function( error, magResponse ) {
-
 
 					if (error) {
 						console.log(error);
 					} else {
 
 						var target = "bz";
-						if(init) createGauge(target, "Bz", -20, 20);
+
+						if(init) createGauge({
+							size: 250,
+							name: target,
+							label: "Bz",
+							min: -20,
+							max: 20,
+							yellowZones: [{
+								from: -10,
+								to: 0
+							}],
+							redZones: [{
+								from: -20,
+								to: -10
+							}],
+							minorTicks: 5
+						});
 
 						if(!magResponse.data.hasOwnProperty('length')){
 							setError(target);
@@ -84,7 +80,23 @@ Template.chartsTemplate.onRendered(function() {
 						console.log(error);
 					} else {
 						var target = "speed";
-						if(init) createGauge(target, "Speed", 200, 2000);
+
+						if(init) createGauge({
+							size: 250,
+							name: target,
+							label: "Speed",
+							min: 200,
+							max: 1000,
+							yellowZones: [{
+								from: 450,
+								to: 600
+							}],
+							redZones: [{
+								from: 600,
+								to: 1000
+							}],
+							minorTicks: 5
+						});
 
 						if(!plasmaResponse.data.hasOwnProperty('length')){
 							setError(target);
@@ -95,7 +107,25 @@ Template.chartsTemplate.onRendered(function() {
 						updateGauge(target, value);
 
 						var target = "density";
-						if(init) createGauge(target, "Density", 0, 20);
+
+
+
+						if(init) createGauge({
+							size: 250,
+							name: target,
+							label: "Density",
+							min: 0,
+							max: 20,
+							yellowZones: [{
+								from: 10,
+								to: 15
+							}],
+							redZones: [{
+								from: 15,
+								to: 20
+							}],
+							minorTicks: 5
+						});
 
 						var value = +plasmaResponse.data[plasmaResponse.data.length -1][1];
 						checkErrors(target, value, -9999.9);
@@ -110,18 +140,27 @@ Template.chartsTemplate.onRendered(function() {
 					} else {
 
 						var target = "kp";
-						if(init) createGauge(target, "Wing Kp", 0, 9);
+						if(init) createGauge({
+							size: 250,
+							name: target,
+							label: "Wing Kp",
+							min: 0,
+							max: 9,
+							yellowZones: [{
+								from: 4,
+								to: 6
+							}],
+							redZones: [{
+								from: 6,
+								to: 9
+							}],
+							minorTicks: 5
+						});
 
 						if(!wingKpResponse.data.hasOwnProperty('length')){
 							setError(target);
 						}
-
-						console.log(wingKpResponse);
-						console.log(wingKpResponse.data);
-
 						var value = +wingKpResponse.data[wingKpResponse.data.length -1][8];
-						console.log("kp is "+ value);
-
 						checkErrors(target, value, -1);
 						updateGauge("kp", value);
 					}
@@ -131,13 +170,7 @@ Template.chartsTemplate.onRendered(function() {
 			}
 
 			updateGauges(true);
-
 			setInterval(updateGauges, 60000);
-
-
-			function setError(){
-
-			}
 
 			function checkErrors(target, value, errValue){
 
@@ -150,16 +183,67 @@ Template.chartsTemplate.onRendered(function() {
 					$("#"+ target + "GaugeOffline").hide();
 				}
 			}
-
-
-
 		});
-
 	});
 
-
-
 	$('[data-toggle="tooltip"]').tooltip();
+
+
+
+	$.getScript("/js/vendor/gifshot.min.js", function() {
+
+		var baseUrl = "http://services.swpc.noaa.gov";
+
+		HTTP.call( 'GET', 'http://services.swpc.noaa.gov/products/animations/lasco-c2.json', {}, function(error, response) {
+
+			var images = [];
+
+			for(var i = 0; i < response.data.length; i++){
+				images.push(baseUrl + response.data[i].url);
+			}
+
+			console.log("losco c2 "+ images.length);
+
+			gifshot.createGIF({
+				images: images,
+				interval: 0.4,
+				gifWidth: 500,
+				gifHeight: 500,
+			}, function (obj) {
+				if (!obj.error) {
+					var image = obj.image, animatedImage = document.createElement('img');
+					animatedImage.src = image;
+					$("#lasco-c2").html(animatedImage);
+				}
+			});
+		});
+
+		//HTTP.call( 'GET', 'http://services.swpc.noaa.gov/products/animations/lasco-c3.json', {}, function(error, response) {
+		//
+		//	var images = [];
+		//
+		//	for(var i = 0; i < response.data.length; i++){
+		//		images.push(baseUrl + response.data[i].url);
+		//	}
+		//
+		//	console.log("losco c3 "+ images.length);
+		//
+		//	gifshot.createGIF({
+		//		images: images,
+		//		interval: 0.4,
+		//		gifWidth: 500,
+		//		gifHeight: 500,
+		//	}, function (obj) {
+		//		if (!obj.error) {
+		//			var image = obj.image, animatedImage = document.createElement('img');
+		//			animatedImage.src = image;
+		//			$("#lasco-c3").html(animatedImage);
+		//		}
+		//	});
+		//});
+
+
+	});
 
 });
 

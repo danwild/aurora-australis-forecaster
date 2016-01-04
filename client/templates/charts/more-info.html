@@ -1,0 +1,75 @@
+<template name="chartsMoreInfoTemplate">
+
+			Below charts show data collected at the L1 libration point (auto updated every minute) between the Earth and the Sun
+			(compliments of <a href="http://www.swpc.noaa.gov/" target="_blank">NOAA SWPC's</a>
+			<a href="http://www.swpc.noaa.gov/ace" target="_blank">ACE</a> &amp;
+			<a href="http://www.nesdis.noaa.gov/DSCOVR/" target="_blank">DSCOVR</a> satellites),
+			about 1,500,000km from Earth - which gives us approx. <strong>1 hour advance warning</strong> to get to a good spot once a storm hits!
+
+			<a class="btn btn-primary btn-sm" role="button" data-toggle="collapse" href="#collapseInfo" aria-expanded="false" aria-controls="collapseExample">
+				more info <i class="fa fa-info-circle"></i>
+			</a>
+
+			<div class="collapse" id="collapseInfo">
+				<div class="well">
+					<h3>Earth, L1 and the Sun</h3>
+					<p>
+						The DSCOVR is America’s first operational deep space satellite orbits one million miles from Earth.
+						Positioned between the sun and Earth at Lagrange point 1, it is able to maintain a constant view of the sun and sun-lit side
+						of Earth - which helps to increase the accuracy of predicting the likelihood of an Aurora.
+					</p>
+					<p>
+						This is improved accuracy is very important - because predicting an Aurora on Earth with <em>any</em>
+						confidence is extremely difficult, due the high number of impacting variables - most of which
+						are hard to quantify, or predict with accuracy (many experienced 'Aurora Chasers' might call it an art).
+					</p>
+					<p>
+						That is why this tool is geared towards making conservative forecasts with higher confidence,
+						instead of longer range predictions based on historically unreliable data.
+					</p>
+
+					<div title="NOAA DSCOVR Satellite Credit: NOAA" data-toggle="tooltip">
+						<img src="/images/point_of_lagrange1_big.jpg"
+							 class="img-responsive img-rounded center-block"
+							 alt="NOAA DSCOVR Satellite Credit: NOAA"
+							 title="NOAA DSCOVR Satellite Credit: NOAA"
+						/>
+					</div>
+
+					<h3>1 Hour isn't very long, what if I'm interstate <i class="fa fa-frown-o"></i> </h3>
+					<p>
+						Yep. Life is hard as an Aurora Chaser, and so are long-range weather forecasts. <br/>
+						This tool was mostly just built so we wouldn't have to get up at intervals through
+						the night to check the data - we can just set an alarm and have the system send us an alert
+						when the storm hits L1.
+					</p>
+					<p>
+						For long-range predictions, the Aurora Australis Forecaster is can be used
+						in a two-step approach:
+						<ol>
+							<li>Watch the CME monitor for advanced warnings of potential storms heading our way
+								(typically 1-5 days warning when a CME occurs, but we get a rough idea of what
+								<em>day</em> it <em>might hit.</em>
+							</li>
+							<li>
+								Watch the data coming from L1, to get approx. 1Hr notice to get your skates on.
+							</li>
+						</ol>
+						* alert system will be made available so you don't get square eyes checking the data all day/night.
+					</p>
+
+					For more info about this system check the <a class="btn btn-primary btn-sm" href="{{pathFor 'faqTemplate'}}" role="button">FAQ</a>
+					or see the <a class="btn btn-primary btn-sm" href="{{pathFor 'tipsTemplate'}}" role="button">Tips</a>
+					section for help on how to spot an Aurora.
+
+					<p>
+						<a class="btn btn-primary btn-sm" role="button" data-toggle="collapse" href="#collapseInfo" aria-expanded="false" aria-controls="collapseExample">
+							less info <i class="fa fa-close"></i>
+						</a>
+					</p>
+
+				</div>
+
+			</div>
+
+</template>
