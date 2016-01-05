@@ -22,12 +22,16 @@
     width: 100%;
 }
 
+.animated-image-panel img {
+    width: 100%;
+}
+
 .animated-image-panel .control-panel i.fa {
     font-size: 120px;
     color: #fff;
 }
 
-.animated-image-panel .control-panel .animation img {
+.animated-image-panel .animation img {
     width: 100%;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
