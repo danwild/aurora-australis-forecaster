@@ -208,7 +208,6 @@ function initGauges(){
 		});
 	});
 
-
 }
 
 function initLasco(elem){
@@ -218,6 +217,7 @@ function initLasco(elem){
 	// loading
 	$(elem.currentTarget).find('i').removeClass('fa-play');
 	$(elem.currentTarget).find('i').addClass('fa-cog fa-spin');
+	$(elem.currentTarget).find('.load-progress').text("loading imagery list..");
 
 	$.getScript("/js/vendor/gifshot.min.js", function() {
 
@@ -226,6 +226,7 @@ function initLasco(elem){
 		HTTP.call( 'GET', 'http://services.swpc.noaa.gov/products/animations/lasco-c'+lascoNum+'.json', {}, function(error, response) {
 
 			var images = [];
+			$(elem.currentTarget).find('.load-progress').text("got list, building animation..");
 
 			for(var i = 0; i < response.data.length; i++){
 				images.push(baseUrl + response.data[i].url);
