@@ -1,28 +1,38 @@
 
 Template.chartsTemplate.helpers({
 
-	eg: function(){
-		return false;
+	lascoLoading2: 100,
+	lascoLoading3: 566,
+
+	setLoading: function(){
+		this.lascoLoading2 += 10;
+		return this.lascoLoading2 += 10;
 	}
+
+	//loading: {
+	//	lascoLoading2: 100,
+	//	lascoLoading3: 566
+	//},
+	//
+	//lascoLoading2: function(){
+	//	return loading.lascoLoading2;
+	//}
 
 });
 
 Template.chartsTemplate.events({
 
-	"click .class-eg": function(){
-
+	"click .animated-image-panel": function(elem){
+		initLasco(elem);
 	}
 
 });
 
-Template.chartsTemplate.onRendered(function() {
-
+function initGauges(){
 
 	// bit ugly chaining these, but on waitOn giving mixed results atm
 	$.getScript("/js/vendor/d3.v3.min.js", function() {
-
 		$.getScript("/js/vendor/gauge.js", function() {
-
 
 			var gauges = [];
 
@@ -63,14 +73,15 @@ Template.chartsTemplate.onRendered(function() {
 							minorTicks: 5
 						});
 
-						if(!magResponse.data.hasOwnProperty('length')){
+						if(!magResponse.data || !magResponse.data.hasOwnProperty('length')){
 							setError(target);
 						}
 
 						var value = +magResponse.data[magResponse.data.length -1][3];
-						updateGauge(target, value);
 
-						checkErrors(target, value, -999.9);
+						if(!hasErrors(target, value, -999.9)){
+							updateGauge(target, value);
+						}
 					}
 				});
 
@@ -98,17 +109,21 @@ Template.chartsTemplate.onRendered(function() {
 							minorTicks: 5
 						});
 
-						if(!plasmaResponse.data.hasOwnProperty('length')){
+						var value;
+						if(!plasmaResponse.data || !plasmaResponse.data.hasOwnProperty('length')){
 							setError(target);
+							value = -9999.9;
+							return;
+						}
+						else {
+							value = +plasmaResponse.data[plasmaResponse.data.length -1][2];
 						}
 
-						var value = +plasmaResponse.data[plasmaResponse.data.length -1][2];
-						checkErrors(target, value, -9999.9);
-						updateGauge(target, value);
+						if(!hasErrors(target, value, -9999.9)){
+							updateGauge(target, value);
+						}
 
 						var target = "density";
-
-
 
 						if(init) createGauge({
 							size: 250,
@@ -128,8 +143,10 @@ Template.chartsTemplate.onRendered(function() {
 						});
 
 						var value = +plasmaResponse.data[plasmaResponse.data.length -1][1];
-						checkErrors(target, value, -9999.9);
-						updateGauge(target, value);
+
+						if(!hasErrors(target, value, -9999.9)){
+							updateGauge(target, value);
+						}
 					}
 				});
 
@@ -161,40 +178,52 @@ Template.chartsTemplate.onRendered(function() {
 							setError(target);
 						}
 						var value = +wingKpResponse.data[wingKpResponse.data.length -1][8];
-						checkErrors(target, value, -1);
-						updateGauge("kp", value);
+						if(!hasErrors(target, value, -1)){
+							updateGauge("kp", value);
+						}
 					}
 				});
-
 				console.log("gauges updated!");
 			}
 
 			updateGauges(true);
 			setInterval(updateGauges, 60000);
 
-			function checkErrors(target, value, errValue){
+			function hasErrors(target, value, errValue){
 
 				console.log(value + " == "+errValue);
-
 				if(value == errValue || value == null || value == false){
-					$("#"+ target + "GaugeOffline").fadeIn();
+					setError(target);
+					return true;
 				}
 				else {
 					$("#"+ target + "GaugeOffline").hide();
+					return false;
 				}
+			}
+
+			function setError(target){
+				$("#"+ target + "GaugeOffline").fadeIn();
 			}
 		});
 	});
 
-	$('[data-toggle="tooltip"]').tooltip();
 
+}
 
+function initLasco(elem){
+
+	var lascoNum = $(elem.currentTarget).data("target-name");
+
+	// loading
+	$(elem.currentTarget).find('i').removeClass('fa-play');
+	$(elem.currentTarget).find('i').addClass('fa-cog fa-spin');
 
 	$.getScript("/js/vendor/gifshot.min.js", function() {
 
 		var baseUrl = "http://services.swpc.noaa.gov";
 
-		HTTP.call( 'GET', 'http://services.swpc.noaa.gov/products/animations/lasco-c2.json', {}, function(error, response) {
+		HTTP.call( 'GET', 'http://services.swpc.noaa.gov/products/animations/lasco-c'+lascoNum+'.json', {}, function(error, response) {
 
 			var images = [];
 
@@ -202,48 +231,43 @@ Template.chartsTemplate.onRendered(function() {
 				images.push(baseUrl + response.data[i].url);
 			}
 
-			console.log("losco c2 "+ images.length);
+			console.log("lasco "+ images.length);
 
 			gifshot.createGIF({
 				images: images,
 				interval: 0.4,
-				gifWidth: 500,
-				gifHeight: 500,
+				gifWidth: 468,
+				gifHeight: 468,
+				progressCallback: function(captureProgress) {
+					$(elem.currentTarget).find('.load-progress').text((captureProgress * 100).toFixed(1) +"%");
+				}
 			}, function (obj) {
 				if (!obj.error) {
 					var image = obj.image, animatedImage = document.createElement('img');
 					animatedImage.src = image;
-					$("#lasco-c2").html(animatedImage);
+
+					console.log("loaded!");
+
+					// done
+					$(elem.currentTarget).find('img').hide();
+					$(elem.currentTarget).find('.load-progress').text('');
+					$(elem.currentTarget).find('i').removeClass('fa-cog fa-spin');
+					$(elem.currentTarget).find('i').removeClass('fa-pause');
+
+					// bombs away
+					$("#lasco-c"+lascoNum +"-animation").html(animatedImage);
 				}
 			});
 		});
 
-		//HTTP.call( 'GET', 'http://services.swpc.noaa.gov/products/animations/lasco-c3.json', {}, function(error, response) {
-		//
-		//	var images = [];
-		//
-		//	for(var i = 0; i < response.data.length; i++){
-		//		images.push(baseUrl + response.data[i].url);
-		//	}
-		//
-		//	console.log("losco c3 "+ images.length);
-		//
-		//	gifshot.createGIF({
-		//		images: images,
-		//		interval: 0.4,
-		//		gifWidth: 500,
-		//		gifHeight: 500,
-		//	}, function (obj) {
-		//		if (!obj.error) {
-		//			var image = obj.image, animatedImage = document.createElement('img');
-		//			animatedImage.src = image;
-		//			$("#lasco-c3").html(animatedImage);
-		//		}
-		//	});
-		//});
-
-
 	});
+}
+
+Template.chartsTemplate.onRendered(function() {
+
+	initGauges();
+
+	$('[data-toggle="tooltip"]').tooltip();
 
 });
 
