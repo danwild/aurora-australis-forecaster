@@ -3,11 +3,20 @@
 	<div class="container">
 		<div class="page-header">
 
-			<h1>ACE/DSCOVR Realtime Data</h1>
+			<h1>
+				ACE/DSCOVR Realtime Data
+				<div class="reliable-tag grey-bg" data-toggle="tooltip"
+				 title="Of all the data sources available, this real-time gives us the most
+				  accurate understanding of potential auroral activity">
+					<i class="fa fa-star"></i> Reliable Data
+				</div>
+			</h1>
 
 			{{>chartsMoreInfoTemplate}}
 
 			{{>chartsSolarWindTemplate}}
+
+			{{>chartsForecastsTemplate}}
 
 			{{>chartsCmeTemplate}}
 

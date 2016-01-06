@@ -2,6 +2,33 @@
 
 Template.footer.onRendered(function() {
 
+
+	// our time
+	function startTime() {
+		var today = new Date();
+		var h = today.getHours();
+		var m = today.getMinutes();
+		var s = today.getSeconds();
+
+		var D = today.getDate();
+		var M = today.getMonth();
+		var Y = today.getYear();
+
+
+		m = checkTime(m);
+		s = checkTime(s);
+		$("#our-time").html(new Date(Y, M, D, h, m, s));
+		$("#utc-time").html(new Date(Date.UTC(Y, M, D, h, m, s)));
+		var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+		if (i < 10) {i = "0" + i}; // add zero in front of numbers < 10
+		return i;
+	}
+
+	startTime();
+
+
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

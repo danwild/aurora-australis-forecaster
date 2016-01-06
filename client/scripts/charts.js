@@ -1,29 +1,15 @@
 
 Template.chartsTemplate.helpers({
 
-	lascoLoading2: 100,
-	lascoLoading3: 566,
-
-	setLoading: function(){
-		this.lascoLoading2 += 10;
-		return this.lascoLoading2 += 10;
+	eg: function(){
+		return false;
 	}
-
-	//loading: {
-	//	lascoLoading2: 100,
-	//	lascoLoading3: 566
-	//},
-	//
-	//lascoLoading2: function(){
-	//	return loading.lascoLoading2;
-	//}
-
 });
 
 Template.chartsTemplate.events({
 
 	"click .animated-image-panel": function(elem){
-		initLasco(elem);
+		initAnimation(elem);
 	}
 
 });
@@ -113,7 +99,6 @@ function initGauges(){
 						if(!plasmaResponse.data || !plasmaResponse.data.hasOwnProperty('length')){
 							setError(target);
 							value = -9999.9;
-							return;
 						}
 						else {
 							value = +plasmaResponse.data[plasmaResponse.data.length -1][2];
@@ -142,7 +127,14 @@ function initGauges(){
 							minorTicks: 5
 						});
 
-						var value = +plasmaResponse.data[plasmaResponse.data.length -1][1];
+						var value;
+						if(!plasmaResponse.data || !plasmaResponse.data.hasOwnProperty('length')){
+							setError(target);
+							value = -9999.9;
+						}
+						else {
+							value = +plasmaResponse.data[plasmaResponse.data.length -1][1];
+						}
 
 						if(!hasErrors(target, value, -9999.9)){
 							updateGauge(target, value);
@@ -187,7 +179,9 @@ function initGauges(){
 			}
 
 			updateGauges(true);
+			getAlerts();
 			setInterval(updateGauges, 60000);
+			setInterval(getAlerts, 60000);
 
 			function hasErrors(target, value, errValue){
 
@@ -207,12 +201,33 @@ function initGauges(){
 			}
 		});
 	});
-
 }
 
-function initLasco(elem){
+function getAlerts(){
 
-	var lascoNum = $(elem.currentTarget).data("target-name");
+	HTTP.call( 'GET', 'http://services.swpc.noaa.gov/products/alerts.json', {}, function(error, response) {
+
+		if(error) {
+			$("#noaa-alert .alert-message").text("Alerts from NOAA failed, you can try here: http://www.swpc.noaa.gov/");
+		}
+		else if(response.data && response.data.length > 0){
+			$("#noaa-alert .alert-time").text("Latest Alert: "+ response.data[0].issue_datetime);
+			$("#noaa-alert .alert-message").text(response.data[0].message);
+		}
+
+		$("#noaa-alert").fadeIn();
+	});
+}
+
+function initAnimation(elem){
+
+	// check init
+	if($(elem.currentTarget).find('i.fa-play').length == 0){
+		return;
+	}
+
+	var configFile = $(elem.currentTarget).data("target-config");
+	var maxLength = $(elem.currentTarget).data("max");
 
 	// loading
 	$(elem.currentTarget).find('i').removeClass('fa-play');
@@ -223,23 +238,30 @@ function initLasco(elem){
 
 		var baseUrl = "http://services.swpc.noaa.gov";
 
-		HTTP.call( 'GET', 'http://services.swpc.noaa.gov/products/animations/lasco-c'+lascoNum+'.json', {}, function(error, response) {
+		HTTP.call( 'GET', baseUrl+ '/products/animations/'+configFile+'.json', {}, function(error, response) {
 
 			var images = [];
-			$(elem.currentTarget).find('.load-progress').text("got list, building animation..");
+
+			// don't bite off more than we can chew..
+			if(response.data.length > maxLength){
+				response.data = response.data.slice((response.data.length - maxLength), response.data.length);
+			}
+
+			$(elem.currentTarget).find('.load-progress').text("crunching "+response.data.length+" images..");
 
 			for(var i = 0; i < response.data.length; i++){
 				images.push(baseUrl + response.data[i].url);
 			}
 
-			console.log("lasco "+ images.length);
+			console.log("images length: "+ images.length);
 
 			gifshot.createGIF({
 				images: images,
-				interval: 0.4,
+				interval: 0.1,
 				gifWidth: 468,
 				gifHeight: 468,
 				progressCallback: function(captureProgress) {
+					console.log("captureProgress "+ captureProgress);
 					$(elem.currentTarget).find('.load-progress').text((captureProgress * 100).toFixed(1) +"%");
 				}
 			}, function (obj) {
@@ -256,7 +278,7 @@ function initLasco(elem){
 					$(elem.currentTarget).find('i').removeClass('fa-pause');
 
 					// bombs away
-					$("#lasco-c"+lascoNum +"-animation").html(animatedImage);
+					$("#"+configFile+ "-animation").html(animatedImage);
 				}
 			});
 		});

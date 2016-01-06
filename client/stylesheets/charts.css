@@ -1,3 +1,14 @@
+
+.reliable-tag {
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #FFF;
+    display: inline-block;
+    position: absolute;
+    margin: 7px;
+}
+
 #solar-wind-chart-panel {
     padding: 20px 0px;
 }
@@ -17,13 +28,14 @@
     position: absolute;
     text-align: center;
     z-index: 1;
-    top: 37%;
+    top: 42%;
     cursor: pointer;
     width: 100%;
 }
 
 .animated-image-panel img {
     width: 100%;
+    max-height: 650px;
 }
 
 .animated-image-panel .control-panel i.fa {
@@ -41,4 +53,8 @@
 .animated-image-panel .control-panel .load-progress {
     color: #FFF;
     font-size: 24px;
+}
+
+#noaa-alert {
+    display: none;
 }

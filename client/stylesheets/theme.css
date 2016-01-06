@@ -9,14 +9,6 @@ body {
     margin-bottom: 60px;
     font-family: 'Open Sans', sans-serif;
 }
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-    background-color: #f5f5f5;
-}
 
 .github-buttons {
     position: absolute;
@@ -68,8 +60,24 @@ code {
     color: #FF9900;
 }
 
+.yellow-bg {
+    color: #FF9900;
+}
+
 .red {
    color: #d9534f;
+}
+
+.red-bg {
+    color: #d9534f;
+}
+
+.green-bg {
+    background: #4cae4c;
+}
+
+.grey-bg {
+    background: #999;
 }
 
 h1 {
@@ -78,6 +86,14 @@ h1 {
 
 .row {
     margin: 30px 0px;
+}
+
+p {
+    margin: 20px 0px;
+}
+
+.h100 {
+    height: 100%;
 }
 
 /*small*/

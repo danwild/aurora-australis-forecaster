@@ -1,6 +1,13 @@
 <template name="chartsCmeTemplate">
 
-	<h1>Recent Coronal Mass Ejections (CME's)</h1>
+	<h1>
+		Coronal Mass Ejections (CME's)
+		<div class="reliable-tag grey-bg" data-toggle="tooltip"
+			 title="CME's are the first in a long chain of events we need to happen for an aurora.
+			 As CME's are the most distant event in the chain, they are carry the highest level of uncertainty">
+			<i class="fa fa-star-o"></i> Long-shot Data
+		</div>
+	</h1>
 
 	<p>
 		CME's are what cause an aurora. When a CME is detected on the sun, we typically have between 1-5 days till
@@ -13,34 +20,68 @@
 	</p>
 
 	<div class="row">
-		<div class="col-md-6 animated-image-panel" data-target-name="2" data-toggle="tooltip"
-			 title="Build animation for lascoC2">
-			<img src="/images/charts/lasco-c2.jpg"
-				 class="img-responsive img-rounded center-block"
-				 alt="NOAA DSCOVR Satellite Credit: NOAA"
-				 title="NOAA DSCOVR Satellite Credit: NOAA"
-			/>
-			<div class="control-panel">
-				<i class="fa fa-play"></i>
-				<div class="load-progress"></div>
-			</div>
-			<div class="animation" id="lasco-c2-animation"></div>
-		</div>
+		<div class="col-md-12">
+			<h3>ENLIL <i class="fa fa-info-circle" data-toggle="tooltip"
+						 title="The Large Angle and Spectrometric Coronagraph (LASCO) is one of a number of
+			 instruments aboard the Solar and Heliospheric Observatory satellite (SOHO).
+			 LASCO consists of three solar coronagraphs with nested fields of view"></i></h3>
 
-		<div class="col-md-6 animated-image-panel" data-target-name="3" data-toggle="tooltip"
-			 title="Build animation for for lascoC3">
-			<img src="/images/charts/lasco-c3.jpg"
-				 class="img-responsive img-rounded center-block"
-				 alt="NOAA DSCOVR Satellite Credit: NOAA"
-				 title="NOAA DSCOVR Satellite Credit: NOAA"
-			/>
-			<div class="control-panel">
-				<i class="fa fa-play"></i>
-				<div class="load-progress"></div>
+			<div class="animated-image-panel" data-target-config="enlil" data-max="150">
+				<img src="/images/charts/enlil.jpg"
+					 class="img-responsive img-rounded center-block"
+					 alt="NOAA DSCOVR Satellite Credit: NOAA"
+					 title="NOAA DSCOVR Satellite Credit: NOAA"
+				/>
+				<div class="control-panel">
+					<i class="fa fa-play"></i>
+					<div class="load-progress">Load for live data</div>
+				</div>
+				<div class="animation" id="enlil-animation"></div>
 			</div>
-			<div class="animation" id="lasco-c3-animation"></div>
 		</div>
-
 	</div>
+
+	<div class="row">
+		<div class="col-md-6">
+			<h3>LASCO C2 <i class="fa fa-info-circle" data-toggle="tooltip"
+			title="The Large Angle and Spectrometric Coronagraph (LASCO) is one of a number of
+			 instruments aboard the Solar and Heliospheric Observatory satellite (SOHO).
+			 LASCO consists of three solar coronagraphs with nested fields of view"></i></h3>
+
+			<div class="animated-image-panel" data-target-config="lasco-c2" data-max="150">
+				<img src="/images/charts/lasco-c2.jpg"
+					 class="img-responsive img-rounded center-block"
+					 alt="NOAA DSCOVR Satellite Credit: NOAA"
+					 title="NOAA DSCOVR Satellite Credit: NOAA"
+				/>
+				<div class="control-panel">
+					<i class="fa fa-play"></i>
+					<div class="load-progress">Load for live data</div>
+				</div>
+				<div class="animation" id="lasco-c2-animation"></div>
+			</div>
+		</div>
+
+		<div class="col-md-6">
+			<h3>LASCO C3 <i class="fa fa-info-circle" data-toggle="tooltip"
+			title="The Large Angle and Spectrometric Coronagraph (LASCO) is one of a number of
+			 instruments aboard the Solar and Heliospheric Observatory satellite (SOHO).
+			 LASCO consists of three solar coronagraphs with nested fields of view"></i></h3>
+
+			<div class="animated-image-panel" data-target-config="lasco-c3" data-max="150">
+				<img src="/images/charts/lasco-c3.jpg"
+					 class="img-responsive img-rounded center-block"
+					 alt="NOAA DSCOVR Satellite Credit: NOAA"
+					 title="NOAA DSCOVR Satellite Credit: NOAA"
+				/>
+				<div class="control-panel">
+					<i class="fa fa-play"></i>
+					<div class="load-progress">Load for live data</div>
+				</div>
+				<div class="animation" id="lasco-c3-animation"></div>
+			</div>
+		</div>
+	</div>
+
 
 </template>

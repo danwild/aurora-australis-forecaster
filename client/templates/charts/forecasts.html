@@ -1,0 +1,59 @@
+<template name="chartsForecastsTemplate">
+
+	<h1>
+		Forecasted Data
+		<div class="reliable-tag grey-bg" data-toggle="tooltip"
+			 title="To massively oversimplify - these are predictions extrapolated from the more reliable data
+			 (like from ACE/DSCOVR). Sometimes they are right, sometimes they are wrong.">
+			<i class="fa fa-star-half-o"></i> Reasonable Data
+		</div>
+	</h1>
+	<p>
+		Here we see a collection of predictive models attempting to forecast auroral activity.
+		While they can serve as a good guide to know when to sit up and pay attention,
+		I wouldn't advise spending your life savings on a trip to see an aurora based on this data.
+	</p>
+
+	<div id="noaa-alert" class="alert alert-info" role="alert">
+		<h4><span class="alert-time"></span></h4>
+		<p class="alert-message"></p>
+	</div>
+
+	<div class="row">
+
+		<div class="col-md-6">
+			<h3>Aurora Forecast <i class="fa fa-info-circle" data-toggle="tooltip"
+							title="The Large Angle and Spectrometric Coronagraph (LASCO) is one of a number of
+			 instruments aboard the Solar and Heliospheric Observatory satellite (SOHO).
+			 LASCO consists of three solar coronagraphs with nested fields of view"></i></h3>
+
+			<div class="animated-image-panel" data-target-config="ovation-south" data-max="150">
+				<img src="/images/charts/ovation-south.jpg"
+					 class="img-responsive img-rounded center-block"
+					 alt="NOAA DSCOVR Satellite Credit: NOAA"
+					 title="NOAA DSCOVR Satellite Credit: NOAA"
+				/>
+				<div class="control-panel">
+					<i class="fa fa-play"></i>
+					<div class="load-progress">Load for live data</div>
+				</div>
+				<div class="animation" id="ovation-south-animation"></div>
+			</div>
+		</div>
+
+		<div class="col-md-6">
+			<h3>12hr Wing Kp Forecast <i class="fa fa-info-circle" data-toggle="tooltip"
+								   title="The Large Angle and Spectrometric Coronagraph (LASCO) is one of a number of
+			 instruments aboard the Solar and Heliospheric Observatory satellite (SOHO).
+			 LASCO consists of three solar coronagraphs with nested fields of view"></i></h3>
+			<img src="http://services.swpc.noaa.gov/images/wing-kp-12-hour.gif"
+				 class="img-responsive img-rounded center-block h100" />
+		</div>
+
+
+
+	</div>
+
+
+
+</template>
