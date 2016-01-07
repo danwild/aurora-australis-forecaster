@@ -2,71 +2,207 @@
 // ol extent [minX, minY, maxX, maxY]
 var targetExtent = [110, -46, 159, -26.3];
 
-var headVisible = false;
-
 Template.mapTemplate.helpers({
 
-	toggleDirection: function(){
-		return (this.headVisible) ? "up" : "down";
-	}
 
 });
 
 Template.mapTemplate.events({
 
-	"click .page-header-toggle": function(){
-
-		headVisible = !headVisible;
-
-		if(headVisible){
-			$(".page-header .content").show();
-		}
-		else {
-			$(".page-header .content").hide();
-		}
+	"click .map-toggle": function(elem){
+		toggleMap(elem);
 	}
 
 });
 
+function toggleMap(elem){
+
+	if($(elem.currentTarget).data("map") == "map"){
+		console.log("show map");
+		$("#map-nasa").hide();
+		$("#map").show();
+
+		setTimeout(function(){
+			map.invalidateSize();
+			map.fitBounds(bounds);
+		}, 1000);
+	}
+	else {
+		$("#map").hide();
+		$("#map-nasa").show();
+
+		setTimeout(function(){
+			mapNasa.invalidateSize();
+			map.fitBounds(bounds);
+		}, 1000);
+	}
+
+	// set button active
+	$(".map-toggle").removeClass('btn-primary');
+	$(".map-toggle").addClass('btn-default');
+	$(elem.currentTarget).addClass('btn-primary');
+}
+
+var map, mapNasam, bounds;
+
 Template.mapTemplate.onRendered(function() {
 
+	// w s e n
 	var targetExtent = [110, -46, 159, -26.3];
 
 	$(document).ready(function() {
 
-		// lat lon display
-		var mousePositionControl = new ol.control.MousePosition({
-			coordinateFormat: ol.coordinate.createStringXY(2),
-			projection: 'EPSG:4326',
-			// comment the following two lines to have the mouse position
-			// be placed within the map.
-			className: 'custom-mouse-position',
-			target: document.getElementById('mouse-position'),
-			undefinedHTML: '&nbsp;'
+		$.getScript("/js/vendor/leaflet.js", function() {
+			$.getScript("/js/vendor/proj4.js", function() {
+				$.getScript("/js/vendor/proj4leaflet.js", function() {
+
+
+					// DEFINE GIBS CRS & ALL OUR LAYERS
+
+
+					var EPSG4326 = new L.Proj.CRS(
+						"EPSG:4326",
+						"+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs", {
+							origin: [-180, 90],
+							resolutions: [
+								0.5625,
+								0.28125,
+								0.140625,
+								0.0703125,
+								0.03515625,
+								0.017578125,
+								0.0087890625,
+								0.00439453125,
+								0.002197265625
+							],
+							// Values are x and y here instead of lat and long elsewhere.
+							bounds: [
+								[-180, -90],
+								[180, 90]
+							]
+						}
+					);
+
+					var template =
+						"//map1{s}.vis.earthdata.nasa.gov/wmts-geo/" +
+						"{layer}/default/{time}/{tileMatrixSet}/{z}/{y}/{x}.jpg";
+
+					var today = new Date();
+					var D = today.getDate();
+					var M = today.getMonth() +1;
+					var Y = today.getFullYear();
+
+					M = checkTime(M);
+					D = checkTime(D);
+
+					function checkTime(i) {
+						if (i < 10) {i = "0" + i}; // add zero in front of numbers < 10
+						return i;
+					}
+
+					// YYYY-MM-DD
+					var dateTime = (Y+"-"+M+"-"+D);
+
+					var nasaLayer = L.tileLayer(template, {
+						layer: "MODIS_Terra_CorrectedReflectance_TrueColor",
+						tileMatrixSet: "EPSG4326_250m",
+						time: dateTime,
+						tileSize: 512,
+						subdomains: "abc",
+						noWrap: true,
+						continuousWorld: true,
+						// Prevent Leaflet from retrieving non-existent tiles on the borders.
+						bounds: [
+							[-89.9999, -179.9999],
+							[89.9999, 179.9999]
+						],
+						attribution:
+						"<a href='https://wiki.earthdata.nasa.gov/display/GIBS'>" +
+						"NASA EOSDIS GIBS</a>&nbsp;&nbsp;&nbsp;" +
+						"<a href='https://github.com/nasa-gibs/web-examples/blob/release/examples/leaflet/geographic-epsg4326.js'>" +
+						"View Source" +
+						"</a>"
+					});
+
+					var Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+						attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, ' +
+						'AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+					});
+					var Esri_WorldTopoMap = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+						attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, ' +
+						'NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
+
+					});
+					var Esri_WorldStreetMap = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+						attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, ' +
+						'NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+					});
+					var Esri_WorldGrayCanvas = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+						attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+						maxZoom: 16
+					});
+					var lightPollution = L.tileLayer.wms("http://www2.lightpollutionmap.info/geoserver/gwc/service/wms", {
+						layers: 'PostGIS:VIIRS_2015',
+						format: 'image/png',
+						transparent: true,
+						opacity: 0.4
+					});
+
+					var baseLayers = {
+						"Streets": Esri_WorldStreetMap,
+						"Topography": Esri_WorldTopoMap,
+						"Canvas": Esri_WorldGrayCanvas,
+						"Satellite": Esri_WorldImagery
+					};
+
+					var overlays = {
+						"Light Pollution": lightPollution
+					};
+
+					var southWest = L.latLng(-46, 100);
+					var	northEast = L.latLng(-26.3, 159);
+					bounds = L.latLngBounds(southWest, northEast);
+
+					// MAP 1
+					map = L.map('map', {
+						center: [-36, -135.99],
+						zoom: 2,
+						layers: [Esri_WorldTopoMap, Esri_WorldGrayCanvas, Esri_WorldTopoMap, Esri_WorldImagery]
+					});
+
+					map.fitBounds(bounds);
+					L.control.layers(baseLayers, overlays).addTo(map);
+
+
+					// MAP NASA
+					mapNasa = L.map('map-nasa', {
+						center: [-36, -135.99],
+						zoom: 2,
+						crs: EPSG4326,
+						layers: [nasaLayer]
+					});
+
+					mapNasa.fitBounds(bounds);
+
+
+
+
+
+
+
+
+
+
+					$(".leaflet-control-layers-toggle").html("<i class='fa fa-cog' id='map-layers-trigger'></i>");
+
+				});
+
+
+				$('[data-toggle="tooltip"]').tooltip();
+
+			});
 		});
-
-		var map = new ol.Map({
-			controls: ol.control.defaults({
-				attributionOptions: ({
-					collapsible: true
-				})
-			}).extend([mousePositionControl]),
-			layers: [
-				new ol.layer.Tile({
-					source: new ol.source.MapQuest({layer: 'sat'})
-				})
-			],
-			target: 'map',
-			view: new ol.View({
-				center: ol.proj.fromLonLat([146.47, -40]),
-				zoom: 5
-			})
-		});
-
-		$('[data-toggle="tooltip"]').tooltip();
-
 	});
-
 });
 
 

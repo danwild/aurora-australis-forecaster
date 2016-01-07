@@ -186,7 +186,7 @@ function initGauges(){
 			function hasErrors(target, value, errValue){
 
 				console.log(value + " == "+errValue);
-				if(value == errValue || value == null || value == false){
+				if(value == errValue || isNaN(value) || value == null || value == false){
 					setError(target);
 					return true;
 				}
@@ -211,7 +211,7 @@ function getAlerts(){
 			$("#noaa-alert .alert-message").text("Alerts from NOAA failed, you can try here: http://www.swpc.noaa.gov/");
 		}
 		else if(response.data && response.data.length > 0){
-			$("#noaa-alert .alert-time").text("Latest Alert: "+ response.data[0].issue_datetime);
+			$("#noaa-alert .alert-time").text("Latest Alert: "+ response.data[0].issue_datetime + " (UTC)");
 			$("#noaa-alert .alert-message").text(response.data[0].message);
 		}
 

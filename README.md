@@ -50,7 +50,6 @@ Meteor Packages:
 <ul>
 	<li>twbs:bootstrap</li>
 	<li>iron:router</li>
-	<li>alon:ol3</li>
 	<li>http</li>
 	<li>...</li>
 </ul>	

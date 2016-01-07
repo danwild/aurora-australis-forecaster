@@ -14,20 +14,19 @@ Template.footer.onRendered(function() {
 		var M = today.getMonth();
 		var Y = today.getYear();
 
-
 		m = checkTime(m);
 		s = checkTime(s);
 		$("#our-time").html(new Date(Y, M, D, h, m, s));
 		$("#utc-time").html(new Date(Date.UTC(Y, M, D, h, m, s)));
 		var t = setTimeout(startTime, 500);
 	}
+
 	function checkTime(i) {
 		if (i < 10) {i = "0" + i}; // add zero in front of numbers < 10
 		return i;
 	}
 
 	startTime();
-
 
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

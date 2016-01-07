@@ -1,21 +1,32 @@
 
-.container {
+#map, #map-nasa {
+    width: 100%;
     height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 50px;
 }
 
 #map {
+    display: none;
+}
+
+#map-toggle {
+    position: fixed;
     width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0px;
-}
-
-.page-header {
-     margin: 0px;
-     border-bottom: none;
-}
-
-.page-header-toggle {
+    bottom: 70px;
+    z-index: 1;
     text-align: center;
-    cursor: pointer;
+}
+
+#map-layers-trigger {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+.leaflet-control-layers-toggle {
+    padding: 10px;
+    width: inherit;
+    height: inherit;
 }
