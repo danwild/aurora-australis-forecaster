@@ -1,0 +1,85 @@
+<template name="weatherTemplate">
+
+	<div class="container">
+		<div class="page-header">
+			<h1>Weather</h1>
+
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<h3>BOM Satellite Feed</h3>
+
+					<iframe class="w100 iframe-panel" frameborder="none" src="http://satview.bom.gov.au/"></iframe>
+
+					<button class="btn btn-primary w100" type="button" data-toggle="collapse" data-target="#collapseBomSatMeta" aria-expanded="false" aria-controls="collapseExample">
+						More info <i class="fa fa-info-circle"></i>
+					</button>
+					<div class="collapse gauge-meta" id="collapseBomSatMeta">
+						<div class="well">
+							<p>
+								How. Cool. Is. This!?
+							</p>
+							<p>
+								The Bureau’s new satellite viewer uses imagery from Himawari-8—a geostationary
+								weather satellite operated by the Japan Meteorological Agency (JMA).
+							</p>
+							<p>
+								The satellite is situated 35 800 km above the equator at longitude 140.7°E
+								(above the western Pacific, in line with Papua and central Australia),
+								so it provides excellent coverage of the Australian region.
+							</p>
+							<p>
+								Source: <a href="http://www.sws.bom.gov.au/Geophysical/4/2">http://satview.bom.gov.au/about.html</a> (bloody legends)
+							</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-md-12">
+
+					<h3>Aurora Patrol Camera: Tasmania</h3>
+
+					<video loop muted controls class="w100">
+						<source src="http://www.sws.bom.gov.au/Images/Geophysical/Aurora/Aurora%20Patrol%20Camera/AllSkyVideo.ogv" type="video/ogg">
+						<source src="http://www.sws.bom.gov.au/Images/Geophysical/Aurora/Aurora%20Patrol%20Camera/AllSkyVideo.mp4" type="video/mp4">
+					</video>
+
+					<button class="btn btn-primary w100" type="button" data-toggle="collapse" data-target="#collapsePatrolCamMeta" aria-expanded="false" aria-controls="collapseExample">
+						More info <i class="fa fa-info-circle"></i>
+					</button>
+					<div class="collapse gauge-meta" id="collapsePatrolCamMeta">
+						<div class="well">
+							<p>
+								An all-sky aurora patrol CCD camera located at Cressy, Tasmania provides aurora
+								watchers with real-time guidance on whether auroras are visible from Tasmania.
+							</p>
+							<p>
+								The date (yyyy/mm/dd), time (hh:mm:ss) and exposure time (seconds) are shown in the
+								top left corner of the images. The images are orientated with South to the right and East at bottom.
+							</p>
+							<p>
+								Source: <a href="http://www.sws.bom.gov.au/Geophysical/4/2">http://www.sws.bom.gov.au/Geophysical/4/2</a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+
+
+			</div>
+
+
+			<h3>Moon Phase</h3>
+
+
+			<div class="alert alert-info" role="alert">
+				<h4>Light Pollution <i class="fa fa-lightbulb-o"></i> </h4>
+				<p>See the <a href="{{pathFor 'mapTemplate'}}">Maps</a> page for light pollution map.</p>
+			</div>
+
+		</div>
+	</div>
+
+</template>

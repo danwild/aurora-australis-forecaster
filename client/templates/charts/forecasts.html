@@ -17,17 +17,19 @@
 	<div id="noaa-alert" class="alert alert-info" role="alert">
 		<h4><span class="alert-time"></span></h4>
 		<p class="alert-message"></p>
+		<p>
+			<a href="http://services.swpc.noaa.gov/images/notifications-in-effect-timeline.png" class="btn btn-primary" target="_blank">
+				See all Space Weather Alerts <i class="fa fa-external-link"></i>
+			</a>
+		</p>
 	</div>
 
 	<div class="row">
 
 		<div class="col-md-6">
-			<h3>Aurora Forecast <i class="fa fa-info-circle" data-toggle="tooltip"
-							title="The Large Angle and Spectrometric Coronagraph (LASCO) is one of a number of
-			 instruments aboard the Solar and Heliospheric Observatory satellite (SOHO).
-			 LASCO consists of three solar coronagraphs with nested fields of view"></i></h3>
+			<h3>Aurora Forecast 30 mins</h3>
 
-			<div class="animated-image-panel" data-target-config="ovation-south" data-max="100">
+			<div class="animated-image-panel" data-target-config="ovation-south" data-max="100" data-url-prefix="">
 				<img src="/images/charts/ovation-south.jpg"
 					 class="img-responsive img-rounded center-block"
 					 alt="NOAA DSCOVR Satellite Credit: NOAA"
@@ -39,17 +41,148 @@
 				</div>
 				<div class="animation" id="ovation-south-animation"></div>
 			</div>
+
+			<button class="btn btn-primary w100" type="button" data-toggle="collapse" data-target="#collapseOvationMeta" aria-expanded="false" aria-controls="collapseExample">
+				More info <i class="fa fa-info-circle"></i>
+			</button>
+			<div class="collapse gauge-meta" id="collapseOvationMeta">
+				<div class="well">
+					<p>
+						The OVATION Aurora Forecast Model shows the intensity and location of the aurora predicted for
+						the time shown at the top of the map. This probability forecast is based on current solar
+						wind conditions measured at L1, but using a fixed 30-minute delay time between L1 and Earth.
+					</p>
+					<p>
+						Note that the aurora will not be visible during daylight hours; however, the aurora can often
+						be observed within an hour before sunrise or after sunset. The red line at about 1000 km
+						equatorward of the brightest aurora indicates how far away viewers on the ground might
+						see the aurora assuming good viewing conditions.
+					</p>
+					<p>
+						Source: <a href="http://www.swpc.noaa.gov/node/45">http://www.swpc.noaa.gov/node/45</a>
+					</p>
+				</div>
+			</div>
+
 		</div>
 
 		<div class="col-md-6">
-			<h3>12hr Wing Kp Forecast <i class="fa fa-info-circle" data-toggle="tooltip"
-								   title="The Large Angle and Spectrometric Coronagraph (LASCO) is one of a number of
-			 instruments aboard the Solar and Heliospheric Observatory satellite (SOHO).
-			 LASCO consists of three solar coronagraphs with nested fields of view"></i></h3>
-			<img src="http://services.swpc.noaa.gov/images/wing-kp-12-hour.gif"
-				 class="img-responsive img-rounded center-block h100" />
+			<h3>Aurora Forecast 3 Day</h3>
+
+			<div class="animated-image-panel" data-target-config="auroral-forecast-south" data-max="100" data-url-prefix="/experimental">
+				<img src="/images/charts/ovation-south.jpg"
+					 class="img-responsive img-rounded center-block"
+					 alt="NOAA DSCOVR Satellite Credit: NOAA"
+					 title="NOAA DSCOVR Satellite Credit: NOAA"
+				/>
+				<div class="control-panel">
+					<i class="fa fa-play"></i>
+					<div class="load-progress">Load for live data</div>
+				</div>
+				<div class="animation" id="auroral-forecast-south-animation"></div>
+			</div>
+
+			<button class="btn btn-primary w100" type="button" data-toggle="collapse" data-target="#collapseOvation3DayMeta" aria-expanded="false" aria-controls="collapseExample">
+				More info <i class="fa fa-info-circle"></i>
+			</button>
+			<div class="collapse gauge-meta" id="collapseOvation3DayMeta">
+				<div class="well">
+					<p>
+						The 3-Day Aurora Forecast model shows the intensity and location of the aurora as expected for
+						the time shown at the top of the map. This forecast is based on the 0 - 3 day forecast
+						of the planetary geomagnetic activity index.
+					</p>
+					<p>
+						Each frame shows the estimated location of the aurora for a three-hour period.
+					</p>
+					<p>
+						Note that the aurora will not be visible during daylight hours and it may be an hour or
+						more before sunrise or after sunset that the aurora can be seen from the ground.
+					</p>
+
+					<p>
+						Source: <a href="http://www.swpc.noaa.gov/products/aurora-3-day-forecast">http://www.swpc.noaa.gov/products/aurora-3-day-forecast</a>
+					</p>
+				</div>
+			</div>
+
 		</div>
 
+	</div>
+	<div class="row">
+
+		<div class="col-md-6">
+			<h3>3-Day Forecast</h3>
+			<iframe src="http://services.swpc.noaa.gov/text/3-day-forecast.txt" frameborder="none" class="iframe-panel"></iframe>
+		</div>
+
+		<div class="col-md-6">
+			<h3>SWX Overview</h3>
+			<a href="http://services.swpc.noaa.gov/images/swx-overview-small.gif" target="_blank">
+				<img src="http://services.swpc.noaa.gov/images/swx-overview-small.gif"
+					 class="img-responsive img-rounded center-block h100" />
+			</a>
+		</div>
+
+	</div>
+
+	<div class="row">
+
+		<div class="col-md-6">
+			<h3>4Hr Wing Kp Forecast</h3>
+			<a href="http://services.swpc.noaa.gov/images/wing-kp-12-hour.gif" target="_blank">
+				<img src="http://services.swpc.noaa.gov/images/wing-kp-12-hour.gif"
+					 class="img-responsive img-rounded center-block h100" />
+			</a>
+
+			<button class="btn btn-primary w100" type="button" data-toggle="collapse" data-target="#collapseKpForecastMeta" aria-expanded="false" aria-controls="collapseExample">
+				More info <i class="fa fa-info-circle"></i>
+			</button>
+			<div class="collapse gauge-meta" id="collapseKpForecastMeta">
+				<div class="well">
+					<p>
+						These plots show the latest predicted planetary geomagnetic activity index (Kp) from the
+						U. S. Air Force Weather Agency Wing Kp model. The plots are of 1-hour and 4-hour Kp predictions,
+						along with the observed Estimated Kp.
+					</p>
+					<p>
+						1-hour predictions are plotted with green filled-in
+						circles, 4-hour predictions are plotted in green plus (+) symbols, and the solid blue line
+						is the observed Estimated Kp index. The solid horizontal green bars show the 3-hour
+						interval over which the latest predictions are valid. Vertical error bars
+						are plotted in green to show the 50% confidence interval.
+					</p>
+					<p>
+						Source: <a href="http://www.swpc.noaa.gov/products/wing-kp">http://www.swpc.noaa.gov/products/wing-kp</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-6">
+			<h3>6hr ACE Mag SWEPAM</h3>
+			<a href="http://services.swpc.noaa.gov/images/ace-mag-swepam-6-hour.gif" target="_blank">
+					<img src="http://services.swpc.noaa.gov/images/ace-mag-swepam-6-hour.gif"
+						 class="img-responsive img-rounded center-block h100" />
+			</a>
+
+			<button class="btn btn-primary w100" type="button" data-toggle="collapse" data-target="#collapseSwePamMeta" aria-expanded="false" aria-controls="collapseExample">
+				More info <i class="fa fa-info-circle"></i>
+			</button>
+			<div class="collapse gauge-meta" id="collapseSwePamMeta">
+				<div class="well">
+					<p>
+						This is real-time solar wind data from the ACE satellite,
+						at the L1 libration point between the Earth and the Sun,about 1,500,000km
+						forward of Earth, enables ACE to give up to one hour advance warning of the arrival of storm activity.
+					</p>
+					<p>
+						Source: <a href="http://www.swpc.noaa.gov/products/predicted-solar-wind-earth" target="_blank">
+						http://www.swpc.noaa.gov/products/predicted-solar-wind-earth</a>
+					</p>
+				</div>
+			</div>
+		</div>
 
 
 	</div>

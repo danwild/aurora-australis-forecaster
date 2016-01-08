@@ -5,7 +5,7 @@
     border-radius: 3px;
     color: #FFF;
     display: inline-block;
-    position: absolute;
+    float: right;
     margin: 7px;
 }
 
@@ -24,11 +24,19 @@
     left: 0px;
 }
 
+.gauge-panel {
+    margin-top: 20px;
+}
+
+.gauge-panel .btn {
+    width: 100%;
+}
+
 .animated-image-panel .control-panel {
     position: absolute;
     text-align: center;
     z-index: 1;
-    top: 42%;
+    top: 40%;
     cursor: pointer;
     width: 100%;
 }

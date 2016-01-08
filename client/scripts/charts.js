@@ -219,6 +219,8 @@ function getAlerts(){
 	});
 }
 
+http://services.swpc.noaa.gov/experimental/products/animations/auroral-forecast-south.json
+//http://services.swpc.noaa.gov/experimental/images/animations/auroral-forecast-south/AuroralForecast/images/
 function initAnimation(elem){
 
 	// check init
@@ -227,6 +229,7 @@ function initAnimation(elem){
 	}
 
 	var configFile = $(elem.currentTarget).data("target-config");
+	var urlPrefix = $(elem.currentTarget).data("url-prefix");
 	var maxLength = $(elem.currentTarget).data("max");
 
 	// loading
@@ -238,7 +241,7 @@ function initAnimation(elem){
 
 		var baseUrl = "http://services.swpc.noaa.gov";
 
-		HTTP.call( 'GET', baseUrl+ '/products/animations/'+configFile+'.json', {}, function(error, response) {
+		HTTP.call( 'GET', baseUrl + urlPrefix + '/products/animations/' + configFile +'.json', {}, function(error, response) {
 
 			var images = [];
 
@@ -250,7 +253,7 @@ function initAnimation(elem){
 			$(elem.currentTarget).find('.load-progress').text("crunching "+response.data.length+" images..");
 
 			for(var i = 0; i < response.data.length; i++){
-				images.push(baseUrl + response.data[i].url);
+				images.push(baseUrl + urlPrefix + response.data[i].url);
 			}
 
 			console.log("images length: "+ images.length);
@@ -286,9 +289,22 @@ function initAnimation(elem){
 	});
 }
 
+function getFeed(){
+
+	//HTTP.call( 'GET', "http://services.swpc.noaa.gov/text/3-day-forecast.txt", {}, function(error, response) {
+	//
+	//	console.log(response);
+	//	$("#swx-raw").html(response.content);
+	//
+	//});
+
+
+}
+
 Template.chartsTemplate.onRendered(function() {
 
 	initGauges();
+	getFeed();
 
 	$('[data-toggle="tooltip"]').tooltip();
 

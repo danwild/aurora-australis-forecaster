@@ -87,13 +87,24 @@ Template.mapTemplate.onRendered(function() {
 						"//map1{s}.vis.earthdata.nasa.gov/wmts-geo/" +
 						"{layer}/default/{time}/{tileMatrixSet}/{z}/{y}/{x}.jpg";
 
+					// TODAY
 					var today = new Date();
-					var D = today.getDate();
-					var M = today.getMonth() +1;
-					var Y = today.getFullYear();
-
+					var utcToday = new Date(Date.UTC(today.getFullYear(), today.getMonth(), today.getDate()));
+					var D = utcToday.getDate();
+					var M = utcToday.getMonth() +1;
+					var Y = utcToday.getFullYear();
 					M = checkTime(M);
 					D = checkTime(D);
+
+					// YESTERDAY
+					var yesterday = new Date(today);
+					yesterday.setDate(today.getDate() - 1);
+					var utcYesterday = new Date(Date.UTC(yesterday.getFullYear(), yesterday.getMonth(), yesterday.getDate()));
+					var yD = utcYesterday.getDate();
+					var yM = utcYesterday.getMonth() +1;
+					var yY = utcYesterday.getFullYear();
+					yM = checkTime(yM);
+					yD = checkTime(yD);
 
 					function checkTime(i) {
 						if (i < 10) {i = "0" + i}; // add zero in front of numbers < 10
@@ -102,11 +113,36 @@ Template.mapTemplate.onRendered(function() {
 
 					// YYYY-MM-DD
 					var dateTime = (Y+"-"+M+"-"+D);
+					var yesterdayDateTime = (yY+"-"+yM+"-"+yD);
+
+					console.log("dateTime "+ dateTime);
+					console.log("yesterdayDateTime "+ yesterdayDateTime);
 
 					var nasaLayer = L.tileLayer(template, {
 						layer: "MODIS_Terra_CorrectedReflectance_TrueColor",
 						tileMatrixSet: "EPSG4326_250m",
 						time: dateTime,
+						tileSize: 512,
+						subdomains: "abc",
+						noWrap: true,
+						continuousWorld: true,
+						// Prevent Leaflet from retrieving non-existent tiles on the borders.
+						bounds: [
+							[-89.9999, -179.9999],
+							[89.9999, 179.9999]
+						],
+						attribution:
+						"<a href='https://wiki.earthdata.nasa.gov/display/GIBS'>" +
+						"NASA EOSDIS GIBS</a>&nbsp;&nbsp;&nbsp;" +
+						"<a href='https://github.com/nasa-gibs/web-examples/blob/release/examples/leaflet/geographic-epsg4326.js'>" +
+						"View Source" +
+						"</a>"
+					});
+
+					var nasaLayerYesterday = L.tileLayer(template, {
+						layer: "MODIS_Terra_CorrectedReflectance_TrueColor",
+						tileMatrixSet: "EPSG4326_250m",
+						time: yesterdayDateTime,
 						tileSize: 512,
 						subdomains: "abc",
 						noWrap: true,
@@ -173,33 +209,26 @@ Template.mapTemplate.onRendered(function() {
 					map.fitBounds(bounds);
 					L.control.layers(baseLayers, overlays).addTo(map);
 
-
 					// MAP NASA
+					var nasaLayers = {
+						"Today (may not be captured yet)": nasaLayer,
+						"Yesterday": nasaLayerYesterday
+					};
 					mapNasa = L.map('map-nasa', {
 						center: [-36, -135.99],
 						zoom: 2,
 						crs: EPSG4326,
-						layers: [nasaLayer]
+						layers: [nasaLayer, nasaLayerYesterday]
 					});
 
 					mapNasa.fitBounds(bounds);
-
-
-
-
-
-
-
-
-
+					L.control.layers(nasaLayers).addTo(mapNasa);
 
 					$(".leaflet-control-layers-toggle").html("<i class='fa fa-cog' id='map-layers-trigger'></i>");
 
 				});
 
-
 				$('[data-toggle="tooltip"]').tooltip();
-
 			});
 		});
 	});
