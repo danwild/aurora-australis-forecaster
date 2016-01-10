@@ -1,6 +1,15 @@
 # aurora-australis-forecaster
 
-<p><strong>Note:</strong> this project is a work in progress.</p>
+
+------------------------------------------------------------------------------------------------
+
+<p><strong>Note:</strong> this project is a work in progress.<br/>
+A development/prototype version is viewable here: http://aurora.nawth.io/ however
+it may stop working at anytime, or display wildly inaccurate data without any notice. Use with caution until advised otherwise.
+</p>
+
+------------------------------------------------------------------------------------------------
+
 A cross-platform application for aggregating and visualising real-time Aurora Australis forecast data.
 
 Predicting the weather on Earth is still not an exact science, and this becomes more evident when we try to 
