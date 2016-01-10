@@ -2,10 +2,7 @@
 // ol extent [minX, minY, maxX, maxY]
 var targetExtent = [110, -46, 159, -26.3];
 
-Template.mapTemplate.helpers({
-
-
-});
+Template.mapTemplate.helpers({});
 
 Template.mapTemplate.events({
 
@@ -47,9 +44,6 @@ var map, mapNasam, bounds;
 
 Template.mapTemplate.onRendered(function() {
 
-	// w s e n
-	var targetExtent = [110, -46, 159, -26.3];
-
 	$(document).ready(function() {
 
 		$.getScript("/js/vendor/leaflet.js", function() {
@@ -58,8 +52,6 @@ Template.mapTemplate.onRendered(function() {
 
 
 					// DEFINE GIBS CRS & ALL OUR LAYERS
-
-
 					var EPSG4326 = new L.Proj.CRS(
 						"EPSG:4326",
 						"+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs", {

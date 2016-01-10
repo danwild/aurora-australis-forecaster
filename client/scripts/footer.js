@@ -12,12 +12,22 @@ Template.footer.onRendered(function() {
 
 		var D = today.getDate();
 		var M = today.getMonth();
-		var Y = today.getYear();
+		var Y = today.getFullYear();
 
 		m = checkTime(m);
 		s = checkTime(s);
-		$("#our-time").html(new Date(Y, M, D, h, m, s));
-		$("#utc-time").html(new Date(Date.UTC(Y, M, D, h, m, s)));
+		$("#our-time").html(new Date(Y, M, D, h, m, s).toString().split('GMT')[0]);
+		$("#utc-time").html(new Date(
+			today.getUTCFullYear(),
+			today.getUTCMonth(),
+			today.getUTCDate(),
+			today.getUTCHours(),
+			today.getUTCMinutes(),
+			today.getUTCSeconds()
+		).toString().split('GMT')[0]);
+
+		//$("#utc-time").html(Date.UTC(Y, M, D, h, m, s));
+
 		var t = setTimeout(startTime, 500);
 	}
 

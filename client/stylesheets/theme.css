@@ -11,7 +11,7 @@ body {
 }
 
 body > .container {
-    padding: 60px 15px 0;
+    padding: 60px 0px 190px 0px;
 }
 
 
@@ -65,19 +65,8 @@ code {
     margin: 30px 0px;
 }
 
-.github-buttons {
-    position: absolute;
-    right: 20px;
-    bottom: 15px;
-}
-
 .container .text-muted {
     margin: 20px 0;
-}
-
-.footer > .container {
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 .navbar-nav {

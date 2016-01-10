@@ -21,7 +21,7 @@ identifying and communicating the things we know with a reasonable degree of con
 	    </ul>	
 	</li>    
 	<li>Also enable advanced users to 'drill-down' to perform more detailed analysis.</li>
-	<li>Some kind of user configurable solar wind alert feature for ACE feeds, so we don't need to keep setting alarms through the night. (e.g. only wake me up if Bz is x, Bx is y and Proton Density is z)</li>
+	<li>Some kind of user configurable solar wind alert feature for ACE feeds, so we don't need to keep setting alarms through the night. (e.g. only wake me up if Bz is x, Bx is y and speed is z)</li>
 	<li>Define the major impacting factors, and develop an <a href="https://github.com/danwild/aurora-australis-forecaster/wiki/Forecast-Calculation-Methodology">aggregated metric scale</a> to roughly quantify potential aurora quality</li>
 	<li>Provide other useful spatial tools - light pollution, cloud cover maps?</li>
 	<li>Leverage best available data.</li>
@@ -68,8 +68,6 @@ I'm new to whole aurora scene and am simply building this as a way to learn more
 	<li><strong>Feature requests</strong> - or suggestions of things you think would be useful.</li>
 	<li><strong>Data</strong> - specifically any live or regularly updated data feeds that would be relevant.</li>
 	<li><strong>Help</strong> - if you're a developer and are keen to get involved drop me a line or shoot me a pull request. 
-	The best bit of code is the bit you don't have to write yourself ;)</li>
-	<li>...</li>
 </ul>	
 
 

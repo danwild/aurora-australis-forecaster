@@ -27,6 +27,87 @@
 	<div class="row">
 
 		<div class="col-md-6">
+			<h3>4Hr Wing Kp Forecast</h3>
+			<a href="http://services.swpc.noaa.gov/images/wing-kp-12-hour.gif" target="_blank">
+				<img src="http://services.swpc.noaa.gov/images/wing-kp-12-hour.gif"
+					 class="img-responsive img-rounded center-block h100" />
+			</a>
+
+			<button class="btn btn-primary w100" type="button" data-toggle="collapse" data-target="#collapseKpForecastMeta" aria-expanded="false" aria-controls="collapseExample">
+				More info <i class="fa fa-info-circle"></i>
+			</button>
+			<div class="collapse gauge-meta" id="collapseKpForecastMeta">
+				<div class="well">
+					<p>
+						These plots show the latest predicted planetary geomagnetic activity index (Kp) from the
+						U. S. Air Force Weather Agency Wing Kp model. The plots are of 1-hour and 4-hour Kp predictions,
+						along with the observed Estimated Kp.
+					</p>
+					<p>
+						1-hour predictions are plotted with green filled-in
+						circles, 4-hour predictions are plotted in green plus (+) symbols, and the solid blue line
+						is the observed Estimated Kp index. The solid horizontal green bars show the 3-hour
+						interval over which the latest predictions are valid. Vertical error bars
+						are plotted in green to show the 50% confidence interval.
+					</p>
+					<p>
+						Source: <a href="http://www.swpc.noaa.gov/products/wing-kp">http://www.swpc.noaa.gov/products/wing-kp</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-6">
+			<h3>6hr DSCOVR PLASMAG</h3>
+			<a href="http://services.swpc.noaa.gov/experimental/images/dscovr-mag-plasma-arrival-6-hour.gif" target="_blank">
+				<img src="http://services.swpc.noaa.gov/experimental/images/dscovr-mag-plasma-arrival-6-hour.gif"
+					 class="img-responsive img-rounded center-block h100" />
+			</a>
+
+			<button class="btn btn-primary w100" type="button" data-toggle="collapse" data-target="#collapseSwePamMeta" aria-expanded="false" aria-controls="collapseExample">
+				More info <i class="fa fa-info-circle"></i>
+			</button>
+			<div class="collapse gauge-meta" id="collapseSwePamMeta">
+				<div class="well">
+					<p>
+						The Predicted Solar Wind at Earth product propagates real-time solar wind data from L1 orbit
+						to Earth. The graphical output shows predicted solar wind values at Earth for solar wind
+						magnetic and plasma data observed at L1 by a space-based monitoring satellite.
+					</p>
+					<p>
+						The vertical white line indicates the current time, and the data plotted to the right
+						of the white line shows what we might expect to see at Earth in the near future.
+					</p>
+					<p>
+						Source: <a href="http://www.swpc.noaa.gov/products/predicted-solar-wind-earth" target="_blank">
+						http://www.swpc.noaa.gov/products/predicted-solar-wind-earth</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row">
+
+		<div class="col-md-6">
+			<h3>3-Day Forecast</h3>
+			<iframe src="http://services.swpc.noaa.gov/text/3-day-forecast.txt" frameborder="none" class="iframe-panel"></iframe>
+		</div>
+
+		<div class="col-md-6">
+			<h3>SWX Overview</h3>
+			<a href="http://services.swpc.noaa.gov/images/swx-overview-small.gif" target="_blank">
+				<img src="http://services.swpc.noaa.gov/images/swx-overview-small.gif"
+					 class="img-responsive img-rounded center-block h100" />
+			</a>
+		</div>
+
+	</div>
+
+	<div class="row">
+
+		<div class="col-md-6">
 			<h3>Aurora Forecast 30 mins</h3>
 
 			<div class="animated-image-panel" data-target-config="ovation-south" data-max="100" data-url-prefix="">
@@ -109,84 +190,6 @@
 		</div>
 
 	</div>
-	<div class="row">
-
-		<div class="col-md-6">
-			<h3>3-Day Forecast</h3>
-			<iframe src="http://services.swpc.noaa.gov/text/3-day-forecast.txt" frameborder="none" class="iframe-panel"></iframe>
-		</div>
-
-		<div class="col-md-6">
-			<h3>SWX Overview</h3>
-			<a href="http://services.swpc.noaa.gov/images/swx-overview-small.gif" target="_blank">
-				<img src="http://services.swpc.noaa.gov/images/swx-overview-small.gif"
-					 class="img-responsive img-rounded center-block h100" />
-			</a>
-		</div>
-
-	</div>
-
-	<div class="row">
-
-		<div class="col-md-6">
-			<h3>4Hr Wing Kp Forecast</h3>
-			<a href="http://services.swpc.noaa.gov/images/wing-kp-12-hour.gif" target="_blank">
-				<img src="http://services.swpc.noaa.gov/images/wing-kp-12-hour.gif"
-					 class="img-responsive img-rounded center-block h100" />
-			</a>
-
-			<button class="btn btn-primary w100" type="button" data-toggle="collapse" data-target="#collapseKpForecastMeta" aria-expanded="false" aria-controls="collapseExample">
-				More info <i class="fa fa-info-circle"></i>
-			</button>
-			<div class="collapse gauge-meta" id="collapseKpForecastMeta">
-				<div class="well">
-					<p>
-						These plots show the latest predicted planetary geomagnetic activity index (Kp) from the
-						U. S. Air Force Weather Agency Wing Kp model. The plots are of 1-hour and 4-hour Kp predictions,
-						along with the observed Estimated Kp.
-					</p>
-					<p>
-						1-hour predictions are plotted with green filled-in
-						circles, 4-hour predictions are plotted in green plus (+) symbols, and the solid blue line
-						is the observed Estimated Kp index. The solid horizontal green bars show the 3-hour
-						interval over which the latest predictions are valid. Vertical error bars
-						are plotted in green to show the 50% confidence interval.
-					</p>
-					<p>
-						Source: <a href="http://www.swpc.noaa.gov/products/wing-kp">http://www.swpc.noaa.gov/products/wing-kp</a>
-					</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="col-md-6">
-			<h3>6hr ACE Mag SWEPAM</h3>
-			<a href="http://services.swpc.noaa.gov/images/ace-mag-swepam-6-hour.gif" target="_blank">
-					<img src="http://services.swpc.noaa.gov/images/ace-mag-swepam-6-hour.gif"
-						 class="img-responsive img-rounded center-block h100" />
-			</a>
-
-			<button class="btn btn-primary w100" type="button" data-toggle="collapse" data-target="#collapseSwePamMeta" aria-expanded="false" aria-controls="collapseExample">
-				More info <i class="fa fa-info-circle"></i>
-			</button>
-			<div class="collapse gauge-meta" id="collapseSwePamMeta">
-				<div class="well">
-					<p>
-						This is real-time solar wind data from the ACE satellite,
-						at the L1 libration point between the Earth and the Sun,about 1,500,000km
-						forward of Earth, enables ACE to give up to one hour advance warning of the arrival of storm activity.
-					</p>
-					<p>
-						Source: <a href="http://www.swpc.noaa.gov/products/predicted-solar-wind-earth" target="_blank">
-						http://www.swpc.noaa.gov/products/predicted-solar-wind-earth</a>
-					</p>
-				</div>
-			</div>
-		</div>
-
-
-	</div>
-
 
 
 </template>
