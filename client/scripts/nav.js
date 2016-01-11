@@ -2,7 +2,7 @@ var pageLabels = {
 	"charts": "Aurora Australis",
 	"map": "Maps",
 	"weather": "Weather",
-	"raw": "Raw Data Feeds",
+	"raw": "Raw Data",
 	"tips": "Aurora Tips",
 	"faq": "Aurora FAQ"
 };

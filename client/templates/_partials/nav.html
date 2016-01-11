@@ -10,9 +10,13 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="{{pathFor 'chartsTemplate'}}">
+				<a class="navbar-brand"
+				   href="{{pathFor 'chartsTemplate'}}"
+				   data-toggle="tooltip"
+				   title="CAUTION: This app under development; it may stop working at anytime, or display wildly inaccurate data without any notice. Use with caution until advised otherwise."
+				   data-placement="bottom">
 					<img src="/images/icons/favicon-32x32.png" />
-					{{getLabel activeTemplate}}
+					{{getLabel activeTemplate}} <strong>[ALPHA <i class="fa fa-question-circle"></i>]</strong>
 				</a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">

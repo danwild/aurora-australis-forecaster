@@ -46,6 +46,7 @@ Template.footer.onRendered(function() {
 	ga('create', 'UA-71743728-1', 'auto');
 	ga('send', 'pageview');
 
+	$('[data-toggle="tooltip"]').tooltip();
 
 });
 

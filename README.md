@@ -4,7 +4,7 @@
 ------------------------------------------------------------------------------------------------
 
 <p><strong>Note:</strong> this project is a work in progress.<br/>
-A development/prototype version is viewable here: http://aurora.nawth.io/ however
+A development/proof of concept version is viewable here: http://aurora.nawth.io/ however
 it may stop working at anytime, or display wildly inaccurate data without any notice. Use with caution until advised otherwise.
 </p>
 
