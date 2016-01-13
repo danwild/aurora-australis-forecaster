@@ -250,7 +250,7 @@ function initAnimation(elem){
 				response.data = response.data.slice((response.data.length - maxLength), response.data.length);
 			}
 
-			$(elem.currentTarget).find('.load-progress').text("crunching "+response.data.length+" images..");
+			$(elem.currentTarget).find('.load-progress').text("wrestling "+response.data.length+" images..");
 
 			for(var i = 0; i < response.data.length; i++){
 				images.push(baseUrl + urlPrefix + response.data[i].url);
@@ -289,22 +289,9 @@ function initAnimation(elem){
 	});
 }
 
-function getFeed(){
-
-	//HTTP.call( 'GET', "http://services.swpc.noaa.gov/text/3-day-forecast.txt", {}, function(error, response) {
-	//
-	//	console.log(response);
-	//	$("#swx-raw").html(response.content);
-	//
-	//});
-
-
-}
-
 Template.chartsTemplate.onRendered(function() {
 
 	initGauges();
-	getFeed();
 
 	$('[data-toggle="tooltip"]').tooltip();
 
