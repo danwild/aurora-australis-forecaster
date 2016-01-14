@@ -211,10 +211,7 @@ Template.mapTemplate.onRendered(function() {
             attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, ' +
             'NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
         });
-        var Esri_WorldGrayCanvas = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
-            maxZoom: 16
-        });
+
         var lightPollution = L.tileLayer.wms("http://www2.lightpollutionmap.info/geoserver/gwc/service/wms", {
             layers: 'PostGIS:VIIRS_2015',
             format: 'image/png',
@@ -273,7 +270,6 @@ Template.mapTemplate.onRendered(function() {
 
 	    var baseLayers = {
             "Streets": Esri_WorldStreetMap,
-            "Blank Canvas": Esri_WorldGrayCanvas,
             "Satellite": Esri_WorldImagery,
 		    "Topography": Esri_WorldTopoMap
         };
@@ -294,7 +290,6 @@ Template.mapTemplate.onRendered(function() {
             zoom: 2,
             layers: [
 	            Esri_WorldStreetMap,
-                Esri_WorldGrayCanvas,
                 Esri_WorldImagery,
 	            Esri_WorldTopoMap
             ]
