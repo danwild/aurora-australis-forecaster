@@ -181,4 +181,9 @@ code {
     .iframe-panel-850 {
         height: 500px;
     }
+
+    #map-toggle .btn {
+        width: 80%;
+        margin: 5px;
+    }
 }
