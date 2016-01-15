@@ -23,6 +23,7 @@ identifying and communicating the things we know with a reasonable degree of con
 
 ## Planned features
 
+- Responsive layout for mobile (this should already be working, need to investigate why not..)
 - Time series plot of real-time solar wind data from L1 (ACE/DSCOVR).
 - A scoring model to emulate human interpretation of solar wind data (if a few solar wind variables line up,
 	 outlook is good etc.), should use some interpolation to smooth null values and brief fluctuations that 
@@ -47,7 +48,6 @@ identifying and communicating the things we know with a reasonable degree of con
 - Switch to stable txt services or press on with experimental?
 - ISS - we should poll service from server-side and push out to client.
 - gifshot, scale interval to img count..? Also need pause. This whole thing needs rethinking (also: we should fetch first pic of each animation).
-- [open link in safari ios](http://stackoverflow.com/questions/17887348/phonegap-open-link-in-browser)
 - move REST service polling to server - run code on server, see if we can live update gauges etc.
 - alerts..
 - pull charts from config
