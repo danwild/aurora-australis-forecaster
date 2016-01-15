@@ -18,8 +18,14 @@ function toggleMap(elem){
 	stopIss();
 
 	// set visible map
-	$(".map").css("visibility", "hidden");
-	$("#"+ $(elem.currentTarget).data("map")).css("visibility", "visible");
+	$(".map").removeClass("show-target-map");
+
+	console.log(".mpa hidden");
+
+	console.log("showing "+"#" + $(elem.currentTarget).data("map"));
+
+
+	$( "#" + $(elem.currentTarget).data("map") ).addClass("show-target-map");
 
 	// set button active
 	$(".map-toggle").removeClass('btn-primary');

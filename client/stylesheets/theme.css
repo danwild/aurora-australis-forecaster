@@ -14,6 +14,11 @@ body > .container {
     padding: 60px 0px 190px 0px;
 }
 
+.navbar-toggle {
+    padding: 9px 7px;
+    margin-right: -5px;
+}
+
 
 /*----------------------------------- COLORS / FONTS -----------------*/
 
@@ -182,8 +187,21 @@ code {
         height: 500px;
     }
 
+    #map-toggle {
+        bottom: 10px;
+    }
+
     #map-toggle .btn {
-        width: 80%;
-        margin: 5px;
+        width: 31%;
+        margin: 0px;
+        font-size: 12px;
+    }
+
+    .leaflet-bottom {
+        display: none;
+    }
+
+    #iss-loading {
+        bottom: 100px;
     }
 }

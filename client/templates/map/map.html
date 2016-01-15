@@ -8,7 +8,7 @@
 
 	<div id="map-toggle">
         <button class="btn btn-primary map-toggle" data-map="map">Data Maps</button>
-		<button class="btn btn-default map-toggle" data-map="map-locations">Viewing Locations</button>
+		<button class="btn btn-default map-toggle" data-map="map-locations">Viewing Spots</button>
 		<button class="btn btn-default map-toggle" data-map="map-nasa">NASA Imagery</button>
 	</div>
 
@@ -17,8 +17,10 @@
 		Calibrating ISS position...
 	</div>
 
-	<div id="map" class="map"></div>
+	<div id="map" class="map show-target-map"></div>
 	<div id="map-nasa" class="map"></div>
-	<iframe id="map-locations" class="map" src="https://www.google.com/maps/d/embed?mid=zKlYtQPOtIXU.kSWVY7W1nNyc" frameborder="none"></iframe>
+	<div id="map-locations" class="map">
+		<iframe src="https://www.google.com/maps/d/embed?mid=zKlYtQPOtIXU.kSWVY7W1nNyc" frameborder="none"></iframe>
+	</div>
 
 </template>
