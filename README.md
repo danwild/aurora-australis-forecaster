@@ -51,6 +51,17 @@ identifying and communicating the things we know with a reasonable degree of con
 ####Raw data
 - Todo
 
+
+## Community suggested features
+
+- Contextual data based on locations "as a user I want to see magnetometer/weather etc from my area, or allow me
+to look at data for other locations"
+- User configurable dashboard "as a user I want to be able to modify the dashboard so I only see the data 
+that I'm most interested in"
+- Night Vision mode "as a user I'd like to be able to enable a NV mode, to change the interface colours to reduce 
+negative impacts on my night vision in the field"
+
+
 ## Planned features
 
 - Time series plot of real-time solar wind data from L1 (ACE/DSCOVR).
@@ -67,20 +78,9 @@ identifying and communicating the things we know with a reasonable degree of con
 - App free for anybody to use, and code is open source for the Aurora Chaser community.
 
 
-## Community suggested features
-
-- Contextual data based on locations "as a user I want to see magnetometer/weather etc from my area, or allow me
-to look at data for other locations"
-- User configurable dashboard "as a user I want to be able to modify the dashboard so I only see the data 
-that I'm most interested in"
-- Night Vision mode "as a user I'd like to be able to enable a NV mode, to change the interface colours to reduce 
-negative impacts on my night vision in the field"
-
-
-
 ## Technical To-do's
 
-- Switch to AngularJS for ViewModel, things are getting messy.
+- Switch to AngularJS for ViewModel, going to need more grunt to manage a dynamic dashboard.
 - Switch to stable txt services or press on with experimental?
 - ISS - we should poll service from server-side and push out to client.
 - gifshot, scale interval to img count..? Also need pause. This whole thing needs rethinking (also: we should fetch first pic of each animation).
