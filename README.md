@@ -54,11 +54,11 @@ identifying and communicating the things we know with a reasonable degree of con
 
 ## Community suggested features
 
-- Contextual data based on locations "as a user I want to see magnetometer/weather etc from my area, or allow me
+- **Contextual data based on locations** "as a user I want to see magnetometer/weather etc from my area, or allow me
 to look at data for other locations"
-- User configurable dashboard "as a user I want to be able to modify the dashboard so I only see the data 
+- **User configurable dashboard** "as a user I want to be able to modify the dashboard so I only see the data 
 that I'm most interested in"
-- Night Vision mode "as a user I'd like to be able to enable a NV mode, to change the interface colours to reduce 
+- **Night Vision mode** "as a user I'd like to be able to enable a NV mode, to change the interface colours to reduce 
 negative impacts on my night vision in the field"
 
 
