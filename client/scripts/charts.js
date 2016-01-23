@@ -30,7 +30,7 @@ function initGauges(){
 	function updateGauges(init){
 
 		// BZ (MAG)
-		HTTP.call( 'GET', 'http://aurora.nawth.io:7000/mag', {}, function( error, magResponse ) {
+		HTTP.call( 'GET', 'http://aurora.nawth.io:7000/ace-mag', {}, function( error, magResponse ) {
 
 			if (error) {
 				console.log(error);
@@ -61,7 +61,7 @@ function initGauges(){
 					value = -999.9;
 				}
 				else {
-					value = +magResponse.data[magResponse.data.length -1][3];
+					value = +magResponse.data[magResponse.data.length -1][9];
 				}
 
 				if(!hasErrors(target, value, -999.9)){
@@ -71,7 +71,7 @@ function initGauges(){
 		});
 
 		// Speed, Density (PLASMA)
-		HTTP.call( 'GET', 'http://aurora.nawth.io:7000/plasma', {}, function( error, plasmaResponse ) {
+		HTTP.call( 'GET', 'http://aurora.nawth.io:7000/ace-swepam', {}, function( error, plasmaResponse ) {
 			if (error) {
 				console.log(error);
 			} else {
@@ -100,7 +100,7 @@ function initGauges(){
 					value = -9999.9;
 				}
 				else {
-					value = +plasmaResponse.data[plasmaResponse.data.length -1][2];
+					value = +plasmaResponse.data[plasmaResponse.data.length -1][8];
 				}
 
 				if(!hasErrors(target, value, -9999.9)){
@@ -132,7 +132,7 @@ function initGauges(){
 					value = -9999.9;
 				}
 				else {
-					value = +plasmaResponse.data[plasmaResponse.data.length -1][1];
+					value = +plasmaResponse.data[plasmaResponse.data.length -1][7];
 				}
 
 				if(!hasErrors(target, value, -9999.9)){

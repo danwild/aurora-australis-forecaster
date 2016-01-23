@@ -1,0 +1,2680 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Aurora Australis Viewing Locations - Australia and New Zealand</name>
+		<description><![CDATA[ABOUT<br>This is a map of aurora australis viewing locations in Australia & New Zealand.<br>The map was established and is overseen by the admins of FB group Aurora Australis Tasmania. All care but no responsibility is taken for the accuracy of the map.<br><br>IMPORTANT SAFETY NOTICE:<br>Do NOT walk beyond established walking tracks, especially at night. Many of these locations are near sheer cliffs or other natural hazards. The presence or absence of safety barriers or signage is unknown. We recommend scouting a site during daylight hours prior to using the site for aurora-chasing.<br><br>***MAP KEY***<br><br>- Blue and green stars - known aurora viewing locations. <br>Someone has been to these places and photographed/seen an aurora here.<br>- Yellow cameras - sky-camera sites.<br>- Red radiation symbols - ground-based magnetometer stations.<br>- Yellow "i" information symbols - gives mobile users a link to this description.<br><br>*********<br><br>For more information on the aurora australis and where/when/how to view it, visit  https://www.facebook.com/groups/auroraaustralis/<br>For explanations of the following items, see https://blog.huntergeophysics.com/aurora-viewing-map/<br><br>RANGE RINGS EXPLAINED<br>MAKING ADDITIONS TO THE MAP<br>DATA LICENSING  (read this if you want to use our data)]]></description>
+		<Folder>
+			<name>Aurora Australis View Locations</name>
+			<Placemark>
+				<name>Apex Point Road, White Beach</name>
+				<description><![CDATA[Nice view to the south, including some horizon, Wedge Island and hills.  Nice reflections across the bay.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.7228221,-43.1054087,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Apex Point 2, White Beach</name>
+				<description><![CDATA[Parking near the boat ramp, good view to south across the bay, hills obscuring the horizon though.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.732038,-43.10969300000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bellerieve Beach</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.375605,-42.878936,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Big Spud, Sassafras</name>
+				<description><![CDATA[Turn past the old Spud service station and turn down the road, there's no houses in the way and very little traffic]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.489524,-41.284891,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Blow Hole, Bicheno</name>
+				<description><![CDATA[Need a Very Good Night Torch<br>don't forget the RED CELLOPHANE to cover the light > helps with night vision.<br>Large flattish boulders with crevices.<br>Easy enough to set up a tripod away from ocean/waves.<br>Good parking areas<br>Penguins do nest in the area<br>Streets lights aren't a direct problem<br>You are at the ocean!!! <br>Prepare for all Weather!!!<br>### CHECK THE TIDE TIMES ###<br>-------<br> Foreshore foot way around the shore line<br>!!! Extra Care needed when using at night !!!]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>148.308638,-41.880134,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name> Braddons Lookout</name>
+				<description><![CDATA[<img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash3/524279_4513634796699_1145959948_n.jpg" height="200" width="auto" /><br><br>Is at times frequented by people 'parking' late at night (especially weekends), but they soon leave once they see you're gonna be there for a while.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash3/524279_4513634796699_1145959948_n.jpg</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.258908,-41.17331,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>1715 Bridgenorth Rd</name>
+				<description><![CDATA[<img src="https://cbks0.google.com/cbk?output=thumbnail&w=90&h=68&ll=-41.438596,146.943742&thumb=0" height="200" width="auto" /><br><br>Rosevale TAS 7292, Australia]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-41.438596,146.943742&amp;thumb=0</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.943742,-41.438596000000004,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bruny Lighthouse</name>
+				<description><![CDATA[Don't fall off the high cliffs!!]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.142982,-43.491662,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cremorne</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.535014,-42.952104,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cygnet Marina</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.081801,-43.183803,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cygnet waterfront</name>
+				<description><![CDATA[<img src="http://sphotos-e.ak.fbcdn.net/hphotos-ak-ash3/529691_455415481198606_374504998_n.jpg" height="200" width="auto" /><br><br>Usually a few boats in the water and some background lights - (Img attached)]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://sphotos-e.ak.fbcdn.net/hphotos-ak-ash3/529691_455415481198606_374504998_n.jpg</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.081249,-43.173104,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dover</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.0537189,-43.3159361,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Franklin area</name>
+				<description><![CDATA[2 k south of Franklin, just a layby on the side of the road]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.999903,-43.111072,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Freycinet Nat Park</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>148.3114816,-42.1327944,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Great Lake</name>
+				<description><![CDATA[Elevated with plenty of room for parking and cameras.<br>Views sth over lake.<br><br>Many other locations around foreshores.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.709151,-41.774768,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Great Lake 2</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.713486,-41.884899,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Gordon Jetty</name>
+				<description><![CDATA[and other spots along the foreshore.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.241977,-43.26823,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Gormanston ("Gormy") Hill</name>
+				<description><![CDATA[look for information booth and pull off area. Look to the right of mount owen for aurora. Be carefull if going past the fence because there are steep banks which may be dangerous in the dark]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.5836108,-42.0830634,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hobart Airport</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.508965,-42.839472,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hope Beach</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.455664,-43.034172,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Howden Boat Dock</name>
+				<description><![CDATA[End of Wingara Road; fun spot. Try not to lightbomb as you approach, Unsealed road, proceed slowly.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.298672,-43.037027,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Huonville Jetty</name>
+				<description><![CDATA[<img src="http://sphotos-f.ak.fbcdn.net/hphotos-ak-prn1/66910_456515061088648_104896045_n.jpg" height="200" width="auto" /><br><br>Some light pollution, but good starting point to see how strong an aurora might be further south - (Img attached)]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://sphotos-f.ak.fbcdn.net/hphotos-ak-prn1/66910_456515061088648_104896045_n.jpg</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.050795,-43.035353,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lake Dulverton, Oatlands</name>
+				<description><![CDATA[There r hills to the south that will raise the horizon but a decent Kp7+ should still be nice over the water.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.382643,-42.306642,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lemonthyme Lookout</name>
+				<description><![CDATA[Plenty of parking area but very limited camera space 1 or 2 at most in prime position. Views up Forth Valley to Pelion West and Mt Ossa. This is heading towards the Lemonthyme Power Station and has nothing to do with Lemonthyme Lodge.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.164834,-41.582451,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Lookout, Pirates Bay</name>
+				<description><![CDATA[Although a high hill would obsure some horizon vision, a bright aurora would be visible and on the horizon down the coast.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.9338748,-42.9971855,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Loongana</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.96736,-41.411771,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lymington Road Beach</name>
+				<description><![CDATA[<img src="http://sphotos-b.ak.fbcdn.net/hphotos-ak-prn1/60660_468715459868608_1988707670_n.jpg" height="200" width="auto" /><br><br>Down a dirt road, but very quiet and plenty of beach to play with. Just be aware of waves coming over the rocks - (Img attached)]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://sphotos-b.ak.fbcdn.net/hphotos-ak-prn1/60660_468715459868608_1988707670_n.jpg</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.068825,-43.214935,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Midwood Road Jetty</name>
+				<description><![CDATA[Midwood Road Jetty]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.302048,-43.044805,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Montrose</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.255592,-42.835192000000006,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mortimer Bay Reserve (Northern End of Bay)</name>
+				<description><![CDATA[Just past Lauderdale turn right into Rifle Range Road. A few Km along....turn right into gravel section of Rifle Range Road...very good road. Approx 1-2k along, Turn off down into the reserve can be easily missed....so watch out for small sign on left which says Beach Access.Car Park right on the shoreline.  Big Puddle after rain.  Please be mindful of other photographers and dim your car lights as quickly as possible. Full view of Aurora East to West.  Low tide gives great foreground and plenty of room to move along the foreshore and trees to add interest if you want to step back in the bush a bit. It is a bird sanctuary so may hear some quacking etc at times but not overwhelming. Please keep the area clean and take your rubbish with you :)]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.466215,-42.970252,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mount Nelson Signal Station</name>
+				<description><![CDATA[May be necessary to walk away from lights. Exercise care/caution.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.34374,-42.92444,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mount Wellington</name>
+				<description><![CDATA[Dress for cold and windy weather]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.23593,-42.896277,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nile - Nile Rd</name>
+				<description><![CDATA[10-15 Mins South of Evandale. Nice clear View South, there are a few interesting trees to suit foreground interest. Limited room on side of gravel road for parking]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.343483,-41.667783,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nile Road 2, Evandale</name>
+				<description><![CDATA[Gnarled old tree, good for foreground interest.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.267609,-41.592851,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ocean Beach</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.264696,-42.137107,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Opossum Bay</name>
+				<description><![CDATA[Some light pollution from Kingston/Blackmans Bay.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.398736,-42.980163,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parkdale Drive</name>
+				<description><![CDATA[Good view to the south but not much foreground interest for photos.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.251784,-42.963568,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pipers River</name>
+				<description><![CDATA[Lewis Road.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.109672,-41.156847,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Port Huon</name>
+				<description><![CDATA[Port Huon Yacht Club; proceed N (left) through the campground.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.98069800000002,-43.159112,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Primrose sands</name>
+				<description><![CDATA[The closest place for me to view the Aurora is from the boat ramp/ jetty Gypsy Bay Primrose Sands]]></description>
+				<styleUrl>#line-4186F0-1</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>147.680776,-42.899708,0.0 147.680977,-42.899859,0.0 147.680776,-42.899708,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Rebounds, Goats Beach</name>
+				<description><![CDATA[Down on the beach left hand side of the Lookout.  Road into this beach is just a few hundred metres before the Goats Bluff Lookout turn off.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.484374,-43.027302,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Remarkable Caves</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.845507,-43.187562,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rosny Hill Lookout</name>
+				<description><![CDATA[<img src="https://cbks0.google.com/cbk?output=thumbnail&w=90&h=68&ll=-42.869737,147.358181&thumb=0" height="200" width="auto" /><br><br>A bit of light pollution but an interesting shot with Hobart city and Derwent River in the foreground. Watch out for hoons!]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-42.869737,147.358181&amp;thumb=0</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.358181,-42.869737,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Seabrook Road, Somerset</name>
+				<description><![CDATA[Just opposite the Christian school. Tin shed for foreground interest.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.81079900000003,-41.044694,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Seven Mile Beach</name>
+				<description><![CDATA[Suggested location only - visibility may be improved by heading slightly eastward.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.540014,-42.843657,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>South Arm Look out (Goats Bluff)</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.482014,-43.02862,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Swansea, south of</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>148.057079,-42.198131,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Three Hut Point</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.442017,-42.694549,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tinderbox</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.325459,-43.059482,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tinderbox Reserve</name>
+				<description><![CDATA[Tinderbox Reserve]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.341895,-43.051046,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>End of Fergusson Ave, Tinderbox</name>
+				<description><![CDATA[Fergusson Ave, Tinderbox]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.330179,-43.057726,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trial Bay Boat Ramp</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.255034,-43.13174600000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Verona Sands</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.152638,-43.27594,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Berrys Beach, Vic</name>
+				<description><![CDATA[Carpark has great views south, and no lights at all nearby. You can set up your camera next to the car if no-one's around.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.202426,-38.515887,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Blowhole, Flinders, Vic</name>
+				<description><![CDATA[South facing lookout over Bass Strait. Many beautiful aurora pics have been taken from this location.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.990011,-38.483846,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cape Schanck, VIc</name>
+				<description><![CDATA[A good place for viewing auroras, with nice foreground scenery. Need to make your way down the boardwalk to get the best views.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.88806,-38.495619,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Flinders Golf Course beach, Vic</name>
+				<description><![CDATA[Very close to the road and carpark. Couple of steps to the beach. The beach is not very scenic but gives an uninterupted view to the south with dark skies.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.0326176,-38.4856245,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kilcunda Bicycle Bridge, Vic</name>
+				<description><![CDATA[Potential for spectacular view of bridge and reflection from water if the aurora is nice and strong. If not, then try viewing from up on the bicycle path.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.48205100000004,-38.554215,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Horn, Mt Buffalo Nat Park, Vic</name>
+				<description><![CDATA[<img src="http://www.iceinspace.com.au/forum/attachment.php?attachmentid=135202&d=1363690578" height="200" width="auto" /><br><br>Great location in northern Victoria with little to no light pollution to the south. High altitude gives about the same view as Flinders along the coast. Prepare for very cold conditions (even in Summer). Be very careful of icy roads. The last bit of dirt road to The Horn is closed in Winter but good south views can still be found elsewhere in the park. Launceston k-index (kL) of 5 or greater is desirable for visibility from this site, although a dull glow may be seen with a kL of 4.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.iceinspace.com.au/forum/attachment.php?attachmentid=135202&amp;d=1363690578</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.76493,-36.776155,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kilcunda rail bridge, Vic</name>
+				<description><![CDATA[Stunning reflections available from this side of the bridge, have caught a weak aurora from here and will be back.  The other side of the water/river is harder to access and very treed.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.482405,-38.554551,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rye Ocean Beach, St Andrews Beach VIC 3941</name>
+				<description><![CDATA[<img src="https://cbks0.google.com/cbk?output=thumbnail&w=90&h=68&ll=-38.414933,144.824047&thumb=0" height="200" width="auto" /><br><br>Australia]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-38.414933,144.824047&amp;thumb=0</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.82404700000004,-38.414933,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Surf Beach, Vic</name>
+				<description><![CDATA[Stunning location, looking directly south, no obstructions and even a seat to sit on!  Next time I will go down to the waters edge an see how that goes.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.29064900000003,-38.511547,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wilson's Prom, VIc</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.3191367,-39.0529678,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A10 west of Hamilton</name>
+				<description><![CDATA[Not the most picturesque location. I simply pulled over at the side of the road, didn't explore further for another location, so have a look around. Pastureland with mountains in the distance, lots of open sky.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.757152,-42.538441,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cawthorns Lane, Bushy Park</name>
+				<description><![CDATA[Looks across pastureland. Mountains along horizon, with a couple of gaps between, good wide view. However, horizon line is higher due to mountains, so view of aurora is often mostly of upper half, except in the gaps between the mountains. Still, not too bad, & saves the long drive to the coast! :)]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.921561,-42.710365,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Karanja, along the road</name>
+				<description><![CDATA[Somewhat limited view due to mounatins along horizon line. Gaps between mountains gives view of lower parts of the aurora, as well as the higher aurora over the mountains. Not the greatest, but saves the long drive to the coast.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.813779,-42.681931,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hamilton Plains Rd</name>
+				<description><![CDATA[Located on private property, best view just inside the gate. Owner came by one time, surprised to see me there, but OK with it... please be respectful, take only photos, leave only footprints. Long view down the valley, over pastureland, mountains in distance along horizon line, with gaps between mountains. Nice wide view. View of aurora is not the best, with view of lower parts only in gaps between mountains, though higher parts of aurora easily visible.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.862198,-42.568213,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Squeaking Point, Port Sorell.</name>
+				<description><![CDATA[Jetty points south]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.5720314,-41.1890297,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Southport Lagoon Conservation Area</name>
+				<description><![CDATA[Southport Lagoon Conservation Area is a top spot. there's a camping area there with public facilities and they're open 24/7. the further you go south the higher the aurora over the horizon. if you wanna go further, follow south cape rd(dirt track) to south cape bay. there's a fantastic clearing up there looking south over the Tasman sea. cut and paste these coordinates to your phone map or type it in your gps. 43°34'59.06"S 146°50'40.58"E ....check with parks and wildlife services first if south cape rd is accessible this time. good luck and stay safe.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.931324,-43.5288854,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Southport</name>
+				<description><![CDATA[More info needed, but there are many good photos coming out of Southport. This looked like a likely spot but I haven't been there.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.0186996,-43.411657,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Franklin</name>
+				<description><![CDATA[Enter the southernmost Campground entrance by Petty Sessions Restaurant.  For the least light pollution in Franklin stay as south as possible. Good views along the Huon River and a good dock.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.0122194,-43.089576,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dru Point, Margate</name>
+				<description><![CDATA[Very popular spot if you want company. A bit of light pollution but easily accessible. Turn left at the end of Beach Rd.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.2791958,-43.0265492,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kingston "Dog Beach"</name>
+				<description><![CDATA[Go all the way to the north end of Kingston Beach and cross the footbridge to the "dog beach" (dogs permitted)]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.3304796,-42.9773527,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Taroona</name>
+				<description><![CDATA[I've never been here but it looks like a top spot.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.3530531,-42.9521508,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>River Road, Ambleside.
+</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.3710856,-41.2049051,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Carlton</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.6292992,-42.8696739,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dove Lake/Cradle Mountain</name>
+				<description><![CDATA[Park in the Dove Lake carpark. Look south, obviously, over Cradle Mountain.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.9622955,-41.6493145,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cape Raoul</name>
+				<description><![CDATA[For the more adventurous. Recommended to scout the area in the daytime to familiarise yourself and get there prior to sunset for an added bonus.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.7987397,-43.2419671,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ross</name>
+				<description><![CDATA[Southern end of town near Uniting Church]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.4915838,-42.0327831,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fluted Cape (Adventure Bay, Bruny Island)</name>
+				<description><![CDATA[For the more adventurous and a "different" location. Use the inland track in low light. Via Grass Point/Penguin Island follows a steep un fenced cliff, not recommended for the inexperienced/in low light.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.3800555555556,-43.36363888888889,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lake Lonsdale</name>
+				<description><![CDATA[Turn off highway onto Sandbar Rd then anywhere along top of lake (north) with a good view south and no campers around. Boat ramp is good but be respectful of the regulars who will be sitting there. Do not go alone. Watch for Roos on road off highway.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>142.6290607,-37.01064060000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mount Sabine</name>
+				<description><![CDATA[Good view to the South over the Otway canopy]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>143.741684,-38.62304,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bells Beach Southside car park</name>
+				<description><![CDATA[Nice bay for the foreground. A few car-parking areas in the vicinity.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.2783189,-38.3711865,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>West Barwon Dam</name>
+				<description><![CDATA[Nice view over the dam from retaining wall. Big car-park with barbeque facilities. Needs to be KP6+]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>143.7231445,-38.5312475,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Point Lonsdale 100Mtr from Lighthouse</name>
+				<description><![CDATA[Just in the blue for light pollution so pretty good considering how close to Geelong. Gun emplacement is also good shelter if rain starts.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.6132302,-38.2915366,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>-41.165891, 147.509733 south of Scottsdale
+</name>
+				<description><![CDATA[It's a great spot because it has a streetlight behind you that illuminates the foreground of the fields but darkness in front of you]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.509733,-41.165891,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Clifftop Drive Elliston SA. Lat -33.659851, 134.888776</name>
+				<description><![CDATA[There are NO BARRIERS and very few warning signs, can be very windy. People have fallen from clifftops in the area and even driven over the edge. When driving do Not go off road. <br>There is plenty of parking here for many people but it is a clifftop, always keep at least 4m from edge.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>134.888776,-33.659851,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Coles Bay
+</name>
+				<description><![CDATA[ample parking]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>148.2847023,-42.1264291,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Beach area at Swanick
+</name>
+				<description><![CDATA[Take a torch walk down to beach dunes - be sure to check tides.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>148.2744884,-42.1142056,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dolphin Sands at end of the road</name>
+				<description><![CDATA[Access via Tasman Hwy, long drive in.<br>Might look easy to just cross over the water way from Swanick but "Don't!" it's tidal, deep in places and wider than you might think - stay at Swanick and walk down to the sand dunes / beach area.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>148.2295991,-42.0956731,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Charlotte Pass</name>
+				<description><![CDATA[car park area / aurora has been photographed from this location]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>148.3285537,-36.4315553,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Denmark, W.A.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>117.275598,-35.0219486,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cape Leeuwin, W.A.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>115.13633250000001,-34.3717607,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Conto's Beach, Boranup, W.A.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>114.99850990000002,-34.0907495,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Point Addis Marine National Park</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.2535674,-38.3951804,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>East Derwent Highway, Cassidys Bay, Tasmania</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.2836375,-42.7778303,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stockdill Drive, Strathnairn, A.C.T.</name>
+				<description><![CDATA[Use the Elvin Group sign as a south indicator. Strong light pollution to the east, but this place is better than nothing on short notice.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>148.9974028,-35.2379125,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Aireys Inlet, Victoria</name>
+				<description><![CDATA[Park next to the light house and proceed on foot. Recommended that you go before sunset so you can see where the walking track is.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.1046539,-38.4692901,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Smith's Beach, Phillip Island</name>
+				<description><![CDATA[The beach is very close to the carpark and some residentials (just a short boardwalk down), so it feels "safer" than other spots where you are out in the middle of nowhere. There is a little light pollution from behind but you have a clear view out, so would recommend to people going out solo for the first time who are unfamiliar with the area.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.25694700000003,-38.5045554,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Blind Bight, Victoria</name>
+				<description><![CDATA[Park in the car park and proceed on foot - preferably before sunset if you haven't been before.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.3433007,-38.2173795,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>RAAF Williams - Point Cook, Victoria</name>
+				<description><![CDATA[Don't enter or park in front of anyone's driveway, and certainly don't point your camera at their house. ]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.73759350000003,-37.9365908,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Campbells Cove, Victoria</name>
+				<description><![CDATA[Gravel car park on the side of the road. Clear view to the south. To the northeast (along Campbells Cove Road) is a nudist beach; viewer discretion is advised.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.7253519,-37.9501981,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Campbells Cove, Victoria #2</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.7214507,-37.9531359,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wyndham Harbour, Victoria</name>
+				<description><![CDATA[Along the jetty. WARNING - no safety barriers or lighting installed. YOU NEED TO ARRIVE BEFORE SUNSET SO YOU CAN SEE WHERE YOU'RE WALKING.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.7065872,-37.9707767,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cape Liptrap, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.9226632,-38.907056,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Talbot-Lexton Road, Lexton, Victoria</name>
+				<description><![CDATA[Exact location uncertain.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>143.5712028,-37.2521255,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pretty Beach, N.S.W.</name>
+				<description><![CDATA[Pros:<br>Excellent location with supreme dark night sky, minimal light pollution, and elevated view to horizon.<br><br>Cons: <br>10 minute walk, cliffs are high, requires G1 - G2 (kL 6 or greater) storming due to latitude.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.371933,-35.5701622,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jervis Bay Territory, NSW. #3</name>
+				<description><![CDATA[Ruins of an old lighthouse make for decent scenery with strong aurora (kL 6 or above). Minimal light pollution.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.761143,-35.1516735,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>San Remo, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.40700850000002,-38.5360564,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Beachport, S.A. #1</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>140.0311911,-37.47393,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Beachport, S.A. #2</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>139.9983582,-37.4831253,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Beachport, S.A. #3</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>140.0576591,-37.4820781,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lake Leschenaultia, Chidlow, W.A.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.25044700000001,-31.8516341,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Uluru/Ayer's Rock, N.T.</name>
+				<description><![CDATA[(Site approximate) Emma Blythman captured the aurora from Uluru on St Patrick's Day (17th March), 2015. See her timelapse here: https://vimeo.com/122521005]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>130.9981015,-25.3257375,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Meredith, Victoria</name>
+				<description><![CDATA[Exact location unknown; scout ahead during daylight hours to find a safe place to stop.]]></description>
+				<styleUrl>#poly-4186F0-1-0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>144.0729904,-37.8662485,0.0 144.064579,-37.9077729,0.0 144.076252,-37.9089241,0.0 144.0886974,-37.9054704,0.0 144.0883541,-37.899646,0.0 144.0828609,-37.8673327,0.0 144.0729904,-37.8662485,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Meredith, Victoria</name>
+				<description><![CDATA[Exact location within blue area (south of Meredith) unknown; scout ahead during daylight hours to find a safe place to stop.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.0768543,-37.8584558,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Foster North Lookout, Foster, Victoria</name>
+				<description><![CDATA[On the corner of South Gippsland Highway and O'Gradys Ridge Road, Foster North Vic 3960]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.1693889,-38.6210408,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Black Head, Gerroa, N.S.W.</name>
+				<description><![CDATA[PROS<br>Dark location<br>Excellent south and south-east facing horizon<br>Good foreground interest if you venture down to the rock<br>Rugged horizon with a mountain etc.<br><br>CONS<br>Lights of Shoalhaven heads, crookhaven heads and currarong and can affect the darkness of the location, particularly if solar storming is weak and if the maximum activity is observed to the south-west.<br>Very open to all types of wind]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.821626,-34.779973,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Point Perpendicular Lighthouse,  Beecroft Peninsula, N.S.W.</name>
+				<description><![CDATA[PROS<br>Great elevation and unrivaled views to the south and east.<br><br>CONS<br>Lights of the army base and small villages on the southern side of Jervis Bay can interfere with the dark night sky, generally only if observing the south-western aspect<br>Need to get away from the light of the lighthouse itself]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.804314,-35.093687,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jervis Bay Territory, N.S.W. #2</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.743855,-35.17363,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jervis Bay Territory, N.S.W.</name>
+				<description><![CDATA[Depending on condition of road can require 4WD.<br><br>Not many barriers near cliff edges (check NPWS websites for access prior to going).]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.695054,-35.199929,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Braidwood Road, near St George, N.S.W.</name>
+				<description><![CDATA[Easily Accessible.<br>Can shoot from right next to car.<br>No LP<br><br>Some tree interference and ridge to south is a similar altitude.<br><br>Middle of nowhere.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.147818,-35.087921,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bass Point, Shell Cove, N.S.W.</name>
+				<description><![CDATA[PROS<br>Dark Location<br>Most Eastern point close to Wollongong<br>Good southern aspect.<br><br>CONS<br>A long walk as gates are closed near the quarry during nightfall. Don't get locked in!<br>Quarry does produce some ambient light when in operation]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.898058,-34.598788,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Green Cape, N.S.W. 2</name>
+				<description><![CDATA[Avoid light pollution of green cape lighthouse.<br><br>Tracks traverse close to dangerous cliffs.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.034558,-37.255498,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Green Cape Lighthouse, N.S.W.</name>
+				<description><![CDATA[Furthest Southern point in NSW for shooting aurora!<br><br>Lighthouse does have some lights which can be annoying, but also conforting due to isolation.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.050088,-37.262566,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Burri Point, Geurilla Bay, N.S.W.</name>
+				<description><![CDATA[No light pollution.<br>Perfect orientation to southern horizon.<br><br>Long walk (15 min). <br>Very isolated<br>Difficult to find a true clear spot without trees flanking.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.23190600000004,-35.834755,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Corin Dam, A.C.T.</name>
+				<description><![CDATA[Excellent foreground interest and very dark.<br><br>If Aurora are located in south eastern sky it won't be visible (behind mountains). Requires large aurora (kp7). <br><br>Update: Road currently closed for repairs.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>148.836228,-35.534789,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Barren Grounds, N.S.W.</name>
+				<description><![CDATA[PROS:<br>Dark location (excellent for Astrophotography)<br>Liimited trees, so southern view is generally good.<br>Good elevation.<br>Good foreground interest (i.e. scattered tress, some dead).<br><br>CONS:<br>Prone to fog<br>Gate locked during nightfall hours, so the areas you can explore are limited by the gate.<br>Kangaroo valley (small town) is almost due south, creating some ambient light.<br>Lights of Nowra beyond this in the south (in the distance) also disrupt viewing to the direct south.<br>Spooky if you're on your own.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.697122,-34.650711,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Port Kembla, Wollongong, N.S.W.</name>
+				<description><![CDATA[PROS:<br>East to get to from Wollongong City<br>Excellent foreground interest (rocks, reflections, waves)<br>Good south facing aspect and dark to the south-east.<br><br>CONS:<br>Can be smelly (depending on the wind direction).<br>Close to the lights of Wollongong, so lots of ambient light (would require a very large solar storm).<br>Can be a hangout for groups of young people.<br>The lights of bass point can disrupt the southern facing aspect]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.91867,-34.493075,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Googong Dam, A.C.T.</name>
+				<description><![CDATA[New Estate has added a lot more LP than previously.<br><br>Still not a bad spot for viewing.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>149.259738,-35.43226,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wind farm in Sandpatch, near Albany, W.A.</name>
+				<description><![CDATA[The turbines make for great foreground scenery. Explore the various walking tracks and roads through the area during the daytime.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>117.79944389999999,-35.0595803,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mt Dale lookout, Mt Dale, W.A.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.29948320000001,-32.1261706,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stirling Range National Park, W.A.</name>
+				<description><![CDATA[Stirling Range Retreat is on Chester Pass Road. Aurora was photographed here in December 2015 on the airstrip. Access to private land may be required (if you can confirm this, please email david.hunter@huntergeophysics.com so he can update this message).]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>118.19395419999998,-34.3165728,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Roaring Beach, Tasmania</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.6736146,-43.0854272,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tessellated Pavement, Tasmania</name>
+				<description><![CDATA[https://en.wikipedia.org/wiki/Tessellated_pavement Many a great photograph of the aurora has been taken here over the years.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.9299292,-43.0103234,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Williamsdale, south of Canberra, N.S.W./A.C.T. border</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>149.1484997,-35.5694946,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Williamsdale #2, south of Canberra, N.S.W./A.C.T. border</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>149.1279271,-35.5745932,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Michelago, south of Canberra, N.S.W./A.C.T. border</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>149.169842,-35.7102977,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bredbo, N.S.W. (south of Canberra)</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>149.1595691,-35.9673589,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tharwa, A.C.T.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>149.0769397,-35.502424,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tennent Creek, A.C.T.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>149.0185064,-35.6264569,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Harmer's Haven, Victoria</name>
+				<description><![CDATA[Decent spot. Can be horribly windy, though, and there is a moderately-steep sand hill to climb over that may make this site inaccessible to some hunters. Park in the car park to the northeast and walk via the track, over the bridge to this point. Take care during high-tide. Tide timing data available here: http://www.bom.gov.au/australia/tides/#!/vic-san-remo]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.5798286,-38.6586509,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dumont D'Urville Station, Antarctica</name>
+				<description><![CDATA[Here's a timelapse from 2006 taken at this station: https://www.youtube.com/watch?v=VyVNkH4Yv5k]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>140.0038004,-66.6642932,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Perry Sandhills, N.S.W.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>141.86706700000002,-34.1012511,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mallee, N.S.W.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>142.3891103,-34.3302536,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sea Lake, Victoria</name>
+				<description><![CDATA[Park somewhere that isn't in line with the main road, just in case someone falls asleep at the wheel and goes forward instead of around the corner.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>142.7220529,-35.5184606,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lake Tyrrell, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>142.8563055,-35.221178,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Waitpinga Beach, S.A.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>138.4992743,-35.6337253,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mount Tarrengower, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.0497491,-36.9963041,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cape Northumberland Lighthouse Ruins</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>140.66110260000005,-38.0595108,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bridgewater Blowholes, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>141.3692057,-38.379486,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bridgewater Blowholes Windfarm, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>141.3731432,-38.3703201,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bishops Rock</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>141.4440323,-38.3597352,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cape Nelson Lighthouse, Cape Nelson, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>141.5429914,-38.4310997,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Point Danger, Victoria</name>
+				<description><![CDATA[It's called that for a reason. *Do not* go onto the shore, especially after dark.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>141.6475224,-38.3920733,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cape Otway Lightstation, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>143.51174909999997,-38.8566477,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Glenaire, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>143.4279728,-38.7819141,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Johanna Beach, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>143.3786416,-38.7627507,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Gables, Victoria</name>
+				<description><![CDATA[As always, check the site out before sunset for safety reasons.]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>143.2205983,-38.7590245,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Twelve Apostles, Victoria site 1</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>143.112132,-38.6684514,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Twelve Apostles, Victoria site 2</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>143.1037742,-38.6642765,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Twelve Apostles, Victoria site 3</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>143.1042235,-38.6660147,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Koo Wee Rup, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.4589093,-38.213169,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pyramid Rock, Phillip Island, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.2216652,-38.5285051,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sunderland Bay, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.2773881,-38.5084153,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>San Remo, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.3882384,-38.5344912,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bluff Road, near Reef Island, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.4264277,-38.4660896,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Venus Bay, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.8115152,-38.7056839,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Oaks</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.6417564,-38.6723282,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Eagles Nest</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.6701412,-38.6697682,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Twin Reefs</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.6522522,-38.675925,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pearson's Point Lookout, near Glenmaggie, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.8052924,-37.8546736,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Chasm Creek, Tasmania</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>145.9519476,-41.069872,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bullsbrook, W.A.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>116.056003,-31.652808400000005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Baringhup, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>143.97326599999997,-36.995108,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bundanoon, N.S.W.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.2965897,-34.6873199,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bilgola Beach, northern Sydney, NSW</name>
+				<description><![CDATA[Requires kL > 8 (a ridiculously strong storm).]]></description>
+				<styleUrl>#icon-960-4186F0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>151.3336699,-33.6434079,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Terrigal, N.S.W.</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>151.4516294,-33.451003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Whitlands, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.3701388,-36.8461693,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Eldorado, Victoria</name>
+				<styleUrl>#icon-960-4186F0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.49886400000003,-36.353034,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>South of Wangaratta, Victoria</name>
+				<description><![CDATA[No point giving a specific location... just find a dark road out of the towns and face south for a decent view!]]></description>
+				<styleUrl>#poly-4186F0-1-0</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>146.0752487,-36.5300536,0.0 146.0848618,-36.6474871,0.0 146.4041519,-36.5962353,0.0 146.4635468,-36.5512931,0.0 146.5198517,-36.51322340000001,0.0 146.5133286,-36.4436565,0.0 146.4178848,-36.4174147,0.0 146.3272476,-36.4135467,0.0 146.2778091,-36.4453136,0.0 146.2445068,-36.4969415,0.0 146.205368,-36.504117,0.0 146.0752487,-36.5300536,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Sky cams</name>
+			<Placemark>
+				<name>Davis Station, Antarctica</name>
+				<description><![CDATA[Web cam: http://www.antarctica.gov.au/webcams/davis]]></description>
+				<styleUrl>#icon-1115</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>77.9696167,-68.576241,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Macquarie Island Station</name>
+				<description><![CDATA[Web cam: http://www.antarctica.gov.au/webcams/macquarie-island]]></description>
+				<styleUrl>#icon-1115</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>158.937267,-54.4993713,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mawson Station, Antarctica</name>
+				<description><![CDATA[Web cam: http://www.antarctica.gov.au/webcams/mawson]]></description>
+				<styleUrl>#icon-1115</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>62.8728461,-67.6023598,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Casey Station, Antarctica</name>
+				<description><![CDATA[Web cam: http://www.antarctica.gov.au/webcams/casey]]></description>
+				<styleUrl>#icon-1115</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>110.5284905,-66.2821162,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cressy Aurora Patrol Camera</name>
+				<description><![CDATA[Site approximate. Link: http://www.sws.bom.gov.au/Geophysical/4/2]]></description>
+				<styleUrl>#icon-1115</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.093544,-41.6921424,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Magnetic poles</name>
+			<Placemark>
+				<name>South Magnetic Pole (2015)</name>
+				<description><![CDATA[Magnetic pole location source: https://maps.ngdc.noaa.gov/viewers/historical_declination/ Also, this: http://www.ngdc.noaa.gov/geomag/geom_util/gmpole.shtml. This is worth reading for some background information: https://en.wikipedia.org/wiki/South_Magnetic_Pole]]></description>
+				<styleUrl>#icon-1141</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>137.6839256,-64.49697320000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>"Aurora Australis Viewing Spots" - New Zealand map data</name>
+			<Placemark>
+				<name>Gibraltar Rock Car Park</name>
+				<description><![CDATA[<img src="http://farm8.staticflickr.com/7263/7578970444_0a5ea0a2af_n.jpg" height="200" width="auto" /><br><br>Notes<br>Good elevated view looking directly south.<br>Limited car parking (maybe 8-10 cars at most).<br><br>Sample:<br>2012-07-15 by Gavin Treadgold<br><br><img src="https://lh5.googleusercontent.com/proxy/CcPC_GyktEkAmM1dDmxzxPlaB_bLC54ZjQ8CiO7-2T5sxMVTZUqesb_1T7SSPHqujhFGxs3-9DTfJ_YWavG2UL6TmFH5DQ2A0ttdf959fA=s0-d" height="200" width="auto" />]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://farm8.staticflickr.com/7263/7578970444_0a5ea0a2af_n.jpg https://lh5.googleusercontent.com/proxy/CcPC_GyktEkAmM1dDmxzxPlaB_bLC54ZjQ8CiO7-2T5sxMVTZUqesb_1T7SSPHqujhFGxs3-9DTfJ_YWavG2UL6TmFH5DQ2A0ttdf959fA=s0-d</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.620809,-43.660805,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Davidsons Rd</name>
+				<styleUrl>#icon-960-009D57-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.46069,-43.696579,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Coopers Lagoon</name>
+				<description><![CDATA[Notes:<br>Last 2km on gravel road.]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.29942,-43.870635,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sandy Point Road</name>
+				<description><![CDATA[<img src="http://www.astrokiwi.com/aurora/list/page3/files/DSC_6327b.jpg" height="200" width="auto" /><br><br>Notes:<br>Plenty of room to park on the grass, easy access to the Oreti River<br><br> <br>Sample:<br>2012-6-17 by Stephen Voss<br><br><img src="https://lh4.googleusercontent.com/proxy/nKXGq0BoEudH5s61odyXAfwpGPDfzJ_7MRVgR5CS5lPRhB4NjK3qGVqspItWohxqrhjS01iRqLdmKEnnSMffkal57A78kt3ZxvpRRm6UGw=s0-d" height="200" width="auto" />]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.astrokiwi.com/aurora/list/page3/files/DSC_6327b.jpg https://lh4.googleusercontent.com/proxy/nKXGq0BoEudH5s61odyXAfwpGPDfzJ_7MRVgR5CS5lPRhB4NjK3qGVqspItWohxqrhjS01iRqLdmKEnnSMffkal57A78kt3ZxvpRRm6UGw=s0-d</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>168.261704,-46.453675000000004,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bluff Hill</name>
+				<description><![CDATA[<img src="http://www.astrokiwi.com/aurora/list/page25/files/bluff03.jpg" height="200" width="auto" /><br><br>Notes: <br>Frequently windy & cold; Panoramic views in all directions including south to Stewart Island (Rakiura Island - "Land of Glowing Skies")<br><br> <br>Sample:<br>2002-09-04 by Stephen Voss<br><br><img src="https://lh4.googleusercontent.com/proxy/2f97tug3WbVQRTColK33FrxlBIdLLsaGqHofDCcpp9hYTqxPADBygVUL63eFt5MF8o3s8IK2JuKIX6FJ0pYH6NU8kfurwRAs425c0rny=s0-d" height="200" width="auto" />]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.astrokiwi.com/aurora/list/page25/files/bluff03.jpg https://lh4.googleusercontent.com/proxy/2f97tug3WbVQRTColK33FrxlBIdLLsaGqHofDCcpp9hYTqxPADBygVUL63eFt5MF8o3s8IK2JuKIX6FJ0pYH6NU8kfurwRAs425c0rny=s0-d</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>168.338442,-46.615134,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stirling Point</name>
+				<description><![CDATA[<img src="http://www.astrokiwi.com/aurora/list/page19/files/001.jpg" height="200" width="auto" /><br><br>Notes: <br>Plenty of parking, view slightly obscured to the south-west by Bluff Hill, but you get the chance to shoot the iconic signpost<br><br> <br>Sample:<br>2003-10-31 by Stephen Voss<br><br><img src="https://lh6.googleusercontent.com/proxy/lDMhEumNdg_Crw55QiPePFBfc57mU8ddl6nGQL7OYfJEHIH5BXixgGFpQwHHxH1bZqjaqwdszKUutkrHc6Mlz1m8VxjOQgmmvYA=s0-d" height="200" width="auto" />]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.astrokiwi.com/aurora/list/page19/files/001.jpg https://lh6.googleusercontent.com/proxy/lDMhEumNdg_Crw55QiPePFBfc57mU8ddl6nGQL7OYfJEHIH5BXixgGFpQwHHxH1bZqjaqwdszKUutkrHc6Mlz1m8VxjOQgmmvYA=s0-d</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>168.357223,-46.613354,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Devils Staircase</name>
+				<description><![CDATA[<img src="http://www.astrokiwi.com/aurora/list/page8/files/frame03a.jpg" height="200" width="auto" /><br><br>Notes:<br>Good views south toward Kingston. Frequently clear when clouded further south<br><br> <br>Sample:<br>2003-11-04 by Stephen Voss<br><br><img src="https://lh4.googleusercontent.com/proxy/HVGB_lNtOk0H8SNMm-JCIHh8m5cgD234fCHZWKsW23fED-No4uepesGlJUz9kY3ILtLJJw2XPm6GYmN7Nhd9OvG3AY3pbAVuteLVQ_s8=s0-d" height="200" width="auto" />]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.astrokiwi.com/aurora/list/page8/files/frame03a.jpg https://lh4.googleusercontent.com/proxy/HVGB_lNtOk0H8SNMm-JCIHh8m5cgD234fCHZWKsW23fED-No4uepesGlJUz9kY3ILtLJJw2XPm6GYmN7Nhd9OvG3AY3pbAVuteLVQ_s8=s0-d</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>168.74286,-45.245785,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Crown Range Road</name>
+				<description><![CDATA[Notes: Elevated view after a slow climb up the "zig-zags"]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>168.864683,-44.973749,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>McCrackens Rest</name>
+				<description><![CDATA[<img src="http://www.westernsouthland.co.nz/images/userimages/large868.jpg" height="200" width="auto" /><br><br>Panoramic views south over Foveaux Strait<br><br><img src="https://lh6.googleusercontent.com/proxy/D2EMme2UGLcQmUXmjMmvPH_1871lpX2o-55A_jsxVZXGFGW274AOPKGb3Mr19bVHufG4uVoWEYzMxt4acVFngWitffhRwEFJzJ4p6aX58ipS=s0-d" height="200" width="auto" />]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.westernsouthland.co.nz/images/userimages/large868.jpg https://lh6.googleusercontent.com/proxy/D2EMme2UGLcQmUXmjMmvPH_1871lpX2o-55A_jsxVZXGFGW274AOPKGb3Mr19bVHufG4uVoWEYzMxt4acVFngWitffhRwEFJzJ4p6aX58ipS=s0-d</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>167.669102,-46.228099,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>John Wilson Drive / Lawyers Head</name>
+				<description><![CDATA[Notes:<br>The road is closed to traffic part way along John Wilson Drive, but you can walk the remaining length to Lawyers Head where there are dark sky views to the south]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>170.534828,-45.909361,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Signal Hill Car Park</name>
+				<description><![CDATA[<img src="http://www.astrokiwi.com/comets/mcnaught/files/DSC_0382.jpg" height="200" width="auto" /><br><br>Notes: Looks southwest over Dunedin City, not the darkest sky, but has good photographic potential <br> <br>Sample:  2007-01-23 by Stephen Voss<br><br><img src="https://lh4.googleusercontent.com/proxy/l7QTq01P5ZA7zamoUgl58y18gA41yTyQe2HAWoUT7SxCajWH0j4F8ouuuu-mt336Oud_QPj74nAAEnvwp384NfG5xOmTAhJOVW98RQ=s0-d" height="200" width="auto" />]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.astrokiwi.com/comets/mcnaught/files/DSC_0382.jpg https://lh4.googleusercontent.com/proxy/l7QTq01P5ZA7zamoUgl58y18gA41yTyQe2HAWoUT7SxCajWH0j4F8ouuuu-mt336Oud_QPj74nAAEnvwp384NfG5xOmTAhJOVW98RQ=s0-d</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>170.546973,-45.858661000000005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cook Observatory, Kaiti Hill</name>
+				<description><![CDATA[This is an elevated site with a good southern horizon and no cities directly to the south. Generally needs a Kp 6 or greater to be seen from here.]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>178.031571,-38.679176,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sponge Bay Lookout</name>
+				<description><![CDATA[Beautiful view to the south with Tuahine Point to the East, and ocean, reef,  and Tuamotu Island in the bay to the south. Often the street lights in the carpark are not functioning. Don't go alone as can be frequented by undesirables (had a near miss once involving a group of drunken youths and a baseball bat).]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>178.05732,-38.699442,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ocean Beach Car Park</name>
+				<description><![CDATA[Good Parking, expansive views south over Foveaux Strait]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>168.310343,-46.593552,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Red Rocks Walkway, Wellington</name>
+				<description><![CDATA[<img src="http://i.imgur.com/yGgOTjS.jpg" height="200" width="auto" /><br><br>It is important to walk down the beach to avoid car lights getting into your photographs.<br><br><img src="https://lh6.googleusercontent.com/proxy/aytNWl5J8IRTssQPRoui4EljOZnzXy32m2BINKubtph_CHrdbuiE5bR-DO8LshU=s0-d" height="200" width="auto" />]]></description>
+				<styleUrl>#icon-960-009D57</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://i.imgur.com/yGgOTjS.jpg https://lh6.googleusercontent.com/proxy/aytNWl5J8IRTssQPRoui4EljOZnzXy32m2BINKubtph_CHrdbuiE5bR-DO8LshU=s0-d</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>174.745789,-41.347111,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Princess Bay, Wellington</name>
+				<styleUrl>#icon-960-009D57-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>174.788382,-41.345178,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Range rings from S.M.P.</name>
+			<Placemark>
+				<name>2400km</name>
+				<styleUrl>#line-DB4436-2-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>83.5839844,-66.4431065,0.0 95.0097656,-57.77451750000001,0.0 106.0400391,-50.5692829,0.0 126.91406250000001,-44.0718005,0.0 146.4697266,-43.6440258,0.0 165.1464844,-48.9224993,0.0 174.1992188,-53.2520688,0.0 -179.6484375,-56.9209968,0.0 -170.4638672,-64.9235417,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>2660km</name>
+				<description><![CDATA[This line has the same magnetic latitude as the Launceston, Tasmania magnetometer.]]></description>
+				<styleUrl>#line-DB4436-2</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>167.3849487,-47.2848188,0.0 147.2016907,-41.423164,0.0 135.0769043,-40.8138092,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>3050km</name>
+				<description><![CDATA[Same magnetic latitude as where the guy who made these lines lives. :P]]></description>
+				<styleUrl>#line-DB4436-2</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>132.9750824,-37.621302,0.0 145.0493145,-37.869755,0.0 150.2243042,-38.4233356,0.0 169.1425037,-43.7583867,0.0 -172.2052002,-53.4308103,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>3500km</name>
+				<styleUrl>#line-DB4436-2-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>50.8007813,-67.974634,0.0 78.3984375,-52.6430634,0.0 101.1621094,-41.5085773,0.0 117.8833008,-35.5143431,0.0 133.9453125,-33.5047591,0.0 143.837471,-33.7280517,0.0 154.7973633,-35.6037187,0.0 175.9570313,-42.4234565,0.0 -166.0617828,-51.2012906,0.0 -149.9414062,-60.97310710000001,0.0 -129.99023440000002,-71.6082825,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>3200km</name>
+				<styleUrl>#line-DB4436-2-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>150.034558,-37.255498,0.0 148.4857178,-36.9059799,0.0 145.3051758,-36.6111184,0.0 143.6242676,-36.4301223,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>3200km</name>
+				<styleUrl>#line-DB4436-2-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>136.5216064,-36.0268894,0.0 143.6242676,-36.4301223,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>3200km</name>
+				<styleUrl>#line-DB4436-2-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-178.6816406,-47.4280873,0.0 173.0566406,-43.7710938,0.0 170.8154297,-42.7147322,0.0 149.9304199,-37.2128315,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>2660km</name>
+				<styleUrl>#line-DB4436-2-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>175.7373047,-50.98609890000001,0.0 167.3849487,-47.2848188,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>4130km</name>
+				<description><![CDATA[Same magnetic latitude as the northern-most tip of New Zealand.]]></description>
+				<styleUrl>#line-DB4436-2</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>172.72705080000003,-34.3978449,0.0 -168.3105469,-43.0046471,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>4130km</name>
+				<styleUrl>#line-DB4436-2-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>101.1621094,-33.9433599,0.0 115.2685547,-30.107117899999995,0.0 133.0272675,-28.0737979,0.0 153.36914060000004,-29.2480632,0.0 172.72705080000003,-34.3978449,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>4130km</name>
+				<styleUrl>#line-DB4436-2-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>69.1918945,-50.0359737,0.0 101.1621094,-33.9433599,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>4130km</name>
+				<styleUrl>#line-DB4436-2-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-72.421875,-76.7202233,0.0 -23.5546875,-71.8014103,0.0 22.6757813,-64.3208716,0.0 47.4609375,-56.84897200000001,0.0 69.1918945,-50.0359737,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>4130km</name>
+				<styleUrl>#line-DB4436-2-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-168.3105469,-43.0046471,0.0 -157.3242187,-49.2678046,0.0 -145.7226562,-56.3652501,0.0 -132.7148437,-63.0748657,0.0 -123.75000000000001,-66.5832173,0.0 -108.984375,-71.4691242,0.0 -72.421875,-76.7202233,0.0</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>BOM IPS/SWS magnetometer stations</name>
+			<Placemark>
+				<name>Darwin</name>
+				<styleUrl>#icon-1167-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>130.84177720000002,-12.4628271,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Learmonth</name>
+				<styleUrl>#icon-1167-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>114.09493529999997,-22.2144259,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Canberra</name>
+				<styleUrl>#icon-1167-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>149.12868430000003,-35.28199979999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Camden</name>
+				<styleUrl>#icon-1167-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>150.69560190000007,-34.05421810000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Davis Station</name>
+				<styleUrl>#icon-1167-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>77.96962429999996,-68.57624659999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hobart</name>
+				<styleUrl>#icon-1167-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.32381480000004,-42.8819032,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Launceston</name>
+				<styleUrl>#icon-1167-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>147.13937669999996,-41.4370868,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Townsville</name>
+				<styleUrl>#icon-1167-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>146.81787069999996,-19.2576268,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Casey Station</name>
+				<styleUrl>#icon-1167-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>110.52854669999999,-66.2821342,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Map description placemark</name>
+			<Placemark>
+				<name>How to read this map</name>
+				<description><![CDATA[Just Read The Instructions. The map description at the top-left of your screen (if you're on a computer) shows the map key and explains everything you see on the map. If you're on a mobile phone, go to this website instead: https://blog.huntergeophysics.com/aurora-viewing-map/]]></description>
+				<styleUrl>#icon-1203</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>137.939887,-50.9833117,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>How to read this map</name>
+				<description><![CDATA[Just Read The Instructions. The map description at the top-left of your screen (if you're on a computer) shows the map key and explains everything you see on the map. If you're on a mobile phone, go to this website instead: https://blog.huntergeophysics.com/aurora-viewing-map/]]></description>
+				<styleUrl>#icon-1203</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>101.6015625,-43.580390900000005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>How to read this map</name>
+				<description><![CDATA[Just Read The Instructions. The map description at the top-left of your screen (if you're on a computer) shows the map key and explains everything you see on the map. If you're on a mobile phone, go to this website instead: https://blog.huntergeophysics.com/aurora-viewing-map/]]></description>
+				<styleUrl>#icon-1203</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>154.7314453,-42.1308213,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>How to read this map</name>
+				<description><![CDATA[Just Read The Instructions. The map description at the top-left of your screen (if you're on a computer) shows the map key and explains everything you see on the map. If you're on a mobile phone, go to this website instead: https://blog.huntergeophysics.com/aurora-viewing-map/]]></description>
+				<styleUrl>#icon-1203</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>176.8359375,-46.5286347,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>How to read this map</name>
+				<description><![CDATA[Just Read The Instructions. The map description at the top-left of your screen (if you're on a computer) shows the map key and explains everything you see on the map. If you're on a mobile phone, go to this website instead: https://blog.huntergeophysics.com/aurora-viewing-map/]]></description>
+				<styleUrl>#icon-1203</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>144.0856934,-39.164141,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>How to read this map</name>
+				<description><![CDATA[Just Read The Instructions. The map description at the top-left of your screen (if you're on a computer) shows the map key and explains everything you see on the map. If you're on a mobile phone, go to this website instead: https://blog.huntergeophysics.com/aurora-viewing-map/]]></description>
+				<styleUrl>#icon-1203</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>115.03916560000002,-35.4783366,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1115-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1115-biz-video.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1115-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1115-biz-video.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1115'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1115-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1115-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1141'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1141-crisis-electrical.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-1167-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1167-crisis-nuclear-radioactive.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1167-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1167-crisis-nuclear-radioactive.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1167-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1167-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1167-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1203-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1203-fac-info.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1203-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1203-fac-info.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1203'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1203-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1203-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-960-009D57-normal'>
+			<IconStyle>
+				<color>ff579D00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-960-009D57-highlight'>
+			<IconStyle>
+				<color>ff579D00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-960-009D57'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-960-009D57-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-960-009D57-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-960-009D57-nodesc-normal'>
+			<IconStyle>
+				<color>ff579D00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-960-009D57-nodesc-highlight'>
+			<IconStyle>
+				<color>ff579D00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-960-009D57-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-960-009D57-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-960-009D57-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-960-4186F0-normal'>
+			<IconStyle>
+				<color>ffF08641</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-960-4186F0-highlight'>
+			<IconStyle>
+				<color>ffF08641</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-960-4186F0'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-960-4186F0-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-960-4186F0-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-960-4186F0-nodesc-normal'>
+			<IconStyle>
+				<color>ffF08641</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-960-4186F0-nodesc-highlight'>
+			<IconStyle>
+				<color>ffF08641</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-960-4186F0-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-960-4186F0-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-960-4186F0-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-4186F0-1-normal'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>1</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-4186F0-1-highlight'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>2.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-4186F0-1'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-4186F0-1-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-4186F0-1-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-DB4436-2-normal'>
+			<LineStyle>
+				<color>ff3644DB</color>
+				<width>2</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-DB4436-2-highlight'>
+			<LineStyle>
+				<color>ff3644DB</color>
+				<width>3.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-DB4436-2'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-DB4436-2-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-DB4436-2-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-DB4436-2-nodesc-normal'>
+			<LineStyle>
+				<color>ff3644DB</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-DB4436-2-nodesc-highlight'>
+			<LineStyle>
+				<color>ff3644DB</color>
+				<width>3.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-DB4436-2-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-DB4436-2-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-DB4436-2-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='poly-4186F0-1-0-normal'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color> 0F08641</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-4186F0-1-0-highlight'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>2.0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color> 0F08641</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<StyleMap id='poly-4186F0-1-0'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#poly-4186F0-1-0-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#poly-4186F0-1-0-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

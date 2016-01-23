@@ -225,6 +225,14 @@ Template.mapTemplate.onRendered(function() {
             opacity: 0.4
         });
 
+        // SENTINEL
+        var bushFires = L.tileLayer.wms("http://sentinel.ga.gov.au/geoserver/wms", {
+            layers: 'sentinel:hotspot_current',
+            format: 'image/png',
+            transparent: true,
+            opacity: 0.8
+        });
+
         // ISS
         var issGroup = new L.LayerGroup();
         var issIcon = L.divIcon({
@@ -283,6 +291,7 @@ Template.mapTemplate.onRendered(function() {
         var overlays = {
             "Light Pollution": lightPollution,
             "ISS Location": issGroup,
+            "Current Bushfires": bushFires,
 	        "Magnetic South Pole": magPoleGroup
         };
 
