@@ -81,7 +81,10 @@ negative impacts on my night vision in the field"
 ## Technical To-do's
 
 - Switch to AngularJS for ViewModel, going to need more grunt to manage a dynamic dashboard.
-- Switch to stable txt services or press on with experimental?
+- Develop a method to dynamically build dashboard/interface from JSON config.
+- Add UI controls to update the config/model.
+- Persist and retrieve user specific interface config using HTML5 Local Storage.
+- Switch back to DSCOVR services once they stabilise.
 - ISS - we should poll service from server-side and push out to client.
 - gifshot, scale interval to img count..? Also need pause. This whole thing needs rethinking (also: we should fetch first pic of each animation).
 - move REST service polling to server - run code on server, see if we can live update gauges etc.

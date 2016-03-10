@@ -20,10 +20,8 @@ function toggleMap(elem){
 	// set visible map
 	$(".map").removeClass("show-target-map");
 
-	console.log(".mpa hidden");
-
+	console.log(".map hidden");
 	console.log("showing "+"#" + $(elem.currentTarget).data("map"));
-
 
 	$( "#" + $(elem.currentTarget).data("map") ).addClass("show-target-map");
 
@@ -230,7 +228,8 @@ Template.mapTemplate.onRendered(function() {
             layers: 'sentinel:hotspot_current',
             format: 'image/png',
             transparent: true,
-            opacity: 0.8
+            opacity: 0.8,
+            attribution: 'Bushfire hotspots from Geoscience Australia\'s Sentinel service.'
         });
 
         // ISS
